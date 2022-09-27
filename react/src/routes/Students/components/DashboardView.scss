@@ -1,0 +1,26 @@
+@import 'styles/_layout';
+@import 'styles/_typography';
+
+.students-dashboard-view {
+	flex-grow: 1;
+
+	&-header {
+		text-align: center;
+		max-width: $max-text-width;
+		margin: 36px auto;
+
+		h1 {
+			margin-bottom: $content-margin;
+		}
+	}
+
+	&-content {
+		@include content-body;
+
+		margin: 0 auto;
+		max-width: $max-text-width;
+		width: 100%;
+		padding: $content-padding;
+		text-align: center;
+	}
+}

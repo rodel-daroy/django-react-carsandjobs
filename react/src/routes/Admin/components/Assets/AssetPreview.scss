@@ -1,0 +1,19 @@
+@import 'styles/_colors';
+
+.asset-preview {
+	display: flex;
+	flex-direction: column;
+
+	&-image {
+		position: relative;
+		height: 100px;
+	}
+
+	&-name {
+		word-break: break-all;
+		font-size: 1.2rem;
+		max-width: 250px;
+		text-align: center;
+		color: $brand-darkgrey;
+	}
+}

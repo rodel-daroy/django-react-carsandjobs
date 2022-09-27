@@ -1,0 +1,12 @@
+.view-panel {
+	display: flex;
+	flex-direction: column;
+
+	&.scrolling {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}

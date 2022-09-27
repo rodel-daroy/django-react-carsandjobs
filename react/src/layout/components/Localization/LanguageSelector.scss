@@ -1,0 +1,40 @@
+@import 'styles/_layout';
+@import 'styles/_typography';
+@import 'styles/_colors';
+
+.language-selector {
+	margin-right: $content-margin;
+
+	font-size: 2rem;
+
+	label {
+		@include field-label;
+
+		display: block;
+		margin-bottom: 0;
+	}
+
+	&-option {
+		margin: 0;
+		font-family: $font-family-headings;
+		font-weight: $font-weight-semibold;
+		text-transform: uppercase;
+		margin-right: $content-padding;
+		position: relative;
+		display: inline-flex;
+    	align-items: center;
+
+		&.current:after {
+			content: '';
+			display: block;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			width: 35px;
+			height: 35px;
+			transform: translate(-50%,-50%);
+			border: 2px solid $brand-lightgrey;
+			border-radius: 50%;
+		}
+	}
+}

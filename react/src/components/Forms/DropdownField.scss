@@ -1,0 +1,342 @@
+@import '~react-select/dist/react-select.css';
+
+@import 'styles/_colors';
+@import './_common';
+
+.dropdown-field {
+	.field-inner {
+		width: auto !important;
+	}
+
+	.custom-dropdown {
+		display: inline-block;
+		min-width: 220px;
+		width: 100%;
+
+		.custom-dropdown-inner {
+			position: relative;
+			font-size: 18px;
+			color: $brand-black;
+		}
+
+		.Select {
+			&.is-focused,
+			&.is-pseudo-focused {
+				border: none;
+				//outline: .5px solid $focus-outline-color !important;
+				outline-offset: 2px !important;
+				box-shadow: none !important;
+
+				> .Select-control {
+					border: 1px solid $input-border-focus;
+					box-shadow: none;
+				}
+			}
+
+			* {
+				outline: none !important;
+			}
+
+			.Select-arrow-zone {
+				.icon {
+					font-size: 24px;
+					display: inline-block;
+
+					&:before {
+						transition: transform .5s, color .5s;
+					}
+				}
+			}
+
+			.Select-clear-zone {
+				color: darken($brand-lightgrey, 15%);
+			}
+
+			&.is-open {
+				.Select-arrow-zone {
+					.icon:before {
+						transform: scaleY(-1);
+					}
+				}
+			}
+
+			&.is-disabled {
+				> .Select-control {
+					background-color: $brand-lightgrey;
+					cursor: not-allowed !important;
+
+					&, &.Select-value {
+						color: $brand-darkgrey !important;
+					}
+
+					.Select-arrow-zone {
+						opacity: 1;
+					}
+				}
+			}
+
+			&.is-clearable {
+				> .Select-control .Select-value {
+					padding-right: 68px;
+				}
+			}
+
+			&.is-searchable {
+				.Select-control {
+					cursor: text;
+				}
+			}
+		}
+
+		.Select-control {
+			position: relative;
+			border: 1px solid $input-border;
+			color: $brand-black;
+
+			cursor: pointer;
+
+			&:hover {
+				box-shadow: none;
+			}
+		}
+
+		.Select-input {
+			display: inline-flex !important;
+			align-items: center;
+			position: relative;
+			z-index: 1;
+			background: none !important;
+
+			padding: {
+				left: 16px;
+			}
+
+			> input {
+				outline: none !important;
+				padding: {
+					top: 0;
+					bottom: 0;
+				}
+			}
+		}
+
+		.Select-placeholder, 
+		.Select > .Select-control .Select-value {
+			padding: {
+				left: 16px;
+				right: 40px;
+			}
+			color: $brand-black;
+		}
+
+		.Select-placeholder {
+			color: $input-placeholder-color;
+		}
+
+		.Select-menu-outer {
+			border-radius: 0;
+			z-index: 5;
+		}
+
+		.Select-option {
+			display: flex;
+			align-items: center;
+			padding: 0 16px;
+			text-transform: none !important;
+			color: $brand-black;
+			border-bottom: 1px solid $brand-lightgrey;
+
+			&:last-child {
+				border-radius: 0;
+				border-bottom: none;
+			}
+
+			&.is-selected {
+				background-color: $brand-red;
+				color: $brand-white;
+			}
+
+			&.is-focused:not(.is-selected) {
+				background-color: rgba($brand-red, .7);
+				color: $brand-white;
+			}
+		}
+
+		.Select-noresults {
+			text-transform: uppercase;
+			font-size: .75em;
+		}
+
+		.Select-arrow-zone {
+			color: $brand-red;
+		}
+
+		&.no-arrow {
+			.Select-placeholder, 
+			.Select > .Select-control .Select-value {
+				padding-right: 16px;
+			}
+
+			.Select.is-clearable > .Select-control .Select-value {
+				padding-right: 32px;
+			}
+
+			.Select-loading-zone {
+				padding-right: 12px;
+			}
+		}
+
+		&.no-frame {
+			.Select-control {
+				border: none !important;
+				background: none !important;
+
+				&:after {
+					content: '';
+					display: block;
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					right: 0;
+					height: 2px;
+					background-color: $brand-red;
+				}
+
+				&:after {
+					left: 16px;
+					right: 16px;
+				}
+			}
+
+			.Select.is-open {
+				.Select-control {
+					&:after {
+						left: 0;
+						right: 0;
+					}
+				}
+			}
+		}
+
+		.Select-menu-outer {
+			margin-top: 0;
+			border-top: none;
+			overflow: hidden;
+
+			@keyframes dropdown-menu-appear {
+				0% {
+					max-height: 0;
+				}
+				100% {
+					max-height: 200px;
+				}
+			}
+
+			animation: {
+				name: dropdown-menu-appear;
+				duration: .5s;
+			}
+		}
+
+		@mixin make-height($height) {
+			.Select-control,
+			.Select-input {
+				height: ($height - 2px);
+			}
+
+			.Select-placeholder, 
+			.Select > .Select-control .Select-value {
+				line-height: ($height - 2px);
+			}
+
+			.Select-option {
+				padding-top: ($height - 21px) / 2;
+				padding-bottom: ($height - 21px) / 2;
+			}
+
+			.Select .icon {
+				line-height: ($height - 2px);
+			}
+		}
+
+		&.large {
+			@include make-height(50px);
+		}
+
+		&.medium {
+			@include make-height(38px);
+		}
+
+		&.small {
+			@include make-height(30px);
+		}
+	}
+
+	[data-whatinput='mouse'] .custom-dropdown .Select {
+		&.is-focused,
+		&.is-pseudo-focused {
+			outline: none !important;
+		}
+	}
+
+	&.autofilled {
+		.custom-dropdown {
+			.Select-control {
+				border-color: $brand-blue !important;
+			}
+		}
+	}
+
+	&.has-error {
+		.custom-dropdown {
+			.Select-control {
+				border-color: $brand-red !important;
+			}
+		}
+	}
+
+	&.has-warning {
+		.custom-dropdown {
+			.Select-control {
+				border-color: $brand-orange !important;
+			}
+		}
+	}
+
+	&.dark {
+		.custom-dropdown {
+			.Select-control {
+				background-color: $input-bg-dark;
+				border-color: $input-border-dark;
+			}
+
+			.Select-input > input {
+				color: $input-color-dark;
+			}
+
+			.Select {
+				&.is-focused,
+				&.is-pseudo-focused {
+					> .Select-control {
+						box-shadow: $input-box-shadow-dark;
+						border-color: $input-color-dark;
+					}
+				}
+
+				.Select-clear-zone {
+					color: $brand-lightgrey;
+				}
+			}
+
+			.Select > .Select-control .Select-value {
+				&, .Select-value-label {
+					color: $input-color-dark !important;
+				}
+			}
+
+			.Select-placeholder {
+				color: $input-placeholder-color-dark;
+			}
+		}
+	}
+}

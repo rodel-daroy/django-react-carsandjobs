@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Bot</title>
+    {#    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.41.0.min.js"></script>#}
+</head>
+<body>
+
+{#LOCAL#}
+{#    <script src="https://cnj-support-ui-codebuilddeploy-1uj9d-webappbucket-nrmtbwz6k4x7.s3.amazonaws.com/lex-web-ui-loader.min.js"></script>#}
+{##}
+{#    <script>#}
+{#      var loaderOpts = {#}
+{#        baseUrl: 'https://cnj-support-ui-codebuilddeploy-1uj9d-webappbucket-nrmtbwz6k4x7.s3.amazonaws.com/'#}
+{#      };#}
+{#      var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);#}
+{#      loader.load()#}
+{#        .catch(function (error) { console.error(error); });#}
+{#    </script>#}
+
+{#TEST#}
+<script src="https://lex-web-ui-test-codebuilddeploy-14s6-webappbucket-732dr4y3x723.s3.amazonaws.com/lex-web-ui-loader.min.js"></script>
+<script>
+    var loaderOpts = {
+        baseUrl: 'https://lex-web-ui-test-codebuilddeploy-14s6-webappbucket-732dr4y3x723.s3.amazonaws.com/'
+    };
+    var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
+    loader.load()
+        .catch(function (error) {
+            console.error(error);
+        });
+</script>
+</body>
+
+</html>

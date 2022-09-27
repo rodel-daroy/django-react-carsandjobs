@@ -1,0 +1,9 @@
+@import 'styles/_layout';
+
+.province-option {
+	&-postal-code {
+		opacity: .6;
+		margin-left: $content-padding / 2;
+		font-size: .8em;
+	}
+}

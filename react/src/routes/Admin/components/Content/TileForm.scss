@@ -1,0 +1,8 @@
+@import 'styles/_layout';
+
+.tile-form {
+	&-asset-preview {
+		width: 250px;
+		padding: $content-padding 0;
+	}
+}

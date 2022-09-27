@@ -1,0 +1,185 @@
+{% extends 'admin/base_site.html' %}
+
+{% block title %}
+    Tile - Set Order
+{% endblock %}
+{% block content %}
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+    <div class="muted">
+        <code><i>Drag and drop table rows to set the order.<br/></i></code>
+    </div>
+    {% for category_tiles in tiles %}
+        <h2 class="text-info text-center">{{ category_tiles.name | title }}-{{ category_tiles.province }}</h2>
+        <table id="result_list" class="table table-striped table-bordered table-hover table-condensed" style="width: 100%">
+            <thead>
+            <tr>
+
+
+                <th scope="col" class="id-column sortable column-id">
+
+
+                    <div class="text">
+                        <a href="#">ID</a>
+                    </div>
+                </th>
+                <th scope="col" class="name-column sortable column-name">
+
+
+                    <div class="text">
+                        <a href="#">Name</a>
+                    </div>
+                </th>
+                <th scope="col" class="name-column sortable column-name">
+
+
+                    <div class="text">
+                        <a href="#">Default Category</a>
+                    </div>
+                </th>
+                <th scope="col" class="name-column sortable column-name">
+
+
+                    <div class="text">
+                        <a href="#">Status</a>
+                    </div>
+                </th>
+                <th scope="col" class="name-column sortable column-name">
+
+
+                    <div class="text">
+                        <a href="#">Action</a>
+                    </div>
+                </th>
+                <th scope="col" class="name-column sortable column-name">
+
+
+                    <div class="text">
+                        <a href="#">New Category</a>
+                    </div>
+                </th>
+                <th scope="col" class="name-column sortable column-name">
+                    <div class="text">
+
+                    </div>
+                </th>
+            </tr>
+            </thead>
+            <tbody id="sortable{{ category_tiles.id }}">
+
+            {% for tile in category_tiles.tiles %}
+
+                <tr class="row1" id="{{ tile.id }}">
+
+                    <th class="field-id"><a
+                            href="/admin/ui_controllers/controllertile/{{ tile.id }}/change/">{{ tile.id }}</a></th>
+                    <td class="field-name">{{ tile.tile_name }}
+                    </td>
+                    <td class="field-name">{{ category_tiles.name | title }}
+                    </td>
+                    <td class="field-name">{% if tile.is_active %} Active {% else %} Preview {% endif %}
+                    </td>
+                    <td><input type="radio" name="order" value="move" >Move</input>
+                    <input type="radio" name="order" value="copy" >Copy</input></td>
+                    <td><select id="selectid" onchange="selectChange(this,event)">
+                        <option value="demo" hidden selected disabled> Select Category </option>
+                        {% for data in categories %}
+                        <option value="{{data.slug}}" id="{{data.slug}}">{{data.name}}-{{ data.province }}</option>
+                        {% endfor %}
+                    </select></td>
+                    <td><input type="submit" value="Submit" onclick="ajaxcall('{{tile.slug}}')"></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+
+        <button class="button" id="update-order{{ category_tiles.id }}">Set Order</button><br/>
+        <script>
+            $( function() {
+                $( "#sortable{{ category_tiles.id }}" ).sortable();
+                $("#update-order"+'{{ category_tiles.id }}').click(function (evt) {
+                    var childs =  $("#sortable{{ category_tiles.id }}").children();
+                    var results = [];
+                    for(i=0; i<childs.length; i++){
+                        div_id = $(childs[i]).attr("id");
+                        results.push(div_id);
+                    }
+                    console.log(results);
+                    var url = '{% url "update_order" %}';
+                    $.ajax({
+                        url: url,
+                        type: "POST",
+                        data: JSON.stringify({'ui_tile_order': results}),
+                        dataType: "json",
+                        contentType: "application/json; charset=utf-8",
+                        success: function (response) {
+                            alert(response.message);
+                        }
+                    })
+
+                })
+            } );
+
+        </script>
+
+    {% endfor %}
+<script>
+<!--function ajaxcall(e){-->
+    <!--&lt;!&ndash;e.stopImmediatePropagation();&ndash;&gt;-->
+    <!--console.log(e,"marja bkl")-->
+<!--}-->
+
+var ajaxCallBool = false;
+$(document).on('change','input[type=radio][name=order]',function(e){
+
+   var select;
+   selectChange = (this_select,e) => {
+    select = e.target.value
+   }
+   ajaxcall = (tileID) => {
+   if(ajaxCallBool){
+        return;
+       }
+       ajaxCallBool = true;
+   if (this.value == 'copy' ) {
+                    var url = "{% url 'copy-tile' %}"
+                    $.ajax({
+                        url: url,
+                        type: "POST",
+                        data: JSON.stringify({
+                            'tile_slug': tileID,
+                            'category_slug':select
+                          }),
+                        dataType: "json",
+                        contentType: "application/json; charset=utf-8",
+                        success: function (response) {
+                            location.reload();
+                        }
+                    })
+                    console.log("copy")
+                }
+                else if (this.value == 'move') {
+                    var url = "{% url 'move-tile' %}"
+                    $.ajax({
+                        url: url,
+                        type: "POST",
+                        data: JSON.stringify({
+                            'tile_slug': tileID,
+                            'category_slug': select
+                          }),
+                        dataType: "json",
+                        contentType: "application/json; charset=utf-8",
+                        success: function (response) {
+                            location.reload();
+                        }
+                    })
+                    console.log("mkl move")
+                }
+   }
+
+
+});
+            </script>
+{% endblock %}

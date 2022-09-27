@@ -1,0 +1,10 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+
+.label-aside {
+	display: inline-block;
+	text-transform: lowercase;
+	font-size: .8em;
+	margin-left: $content-margin;
+	color: darken($brand-lightgrey, 20%);
+}

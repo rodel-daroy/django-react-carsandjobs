@@ -1,0 +1,42 @@
+@import 'styles/_colors';
+@import 'styles/_layout';
+
+$input-height-base: 50px;
+$input-border-radius: 4px;
+
+$input-border: $brand-lightgrey;
+$input-bg: $brand-white;
+$input-color: $brand-black;
+$input-border-focus: $brand-black;
+
+$input-border-dark: rgba($brand-lightgrey, .8);
+$input-bg-dark: rgba($brand-white, 0.5);
+$input-color-dark: $brand-white;
+$input-box-shadow-dark: inset 0 0 0px 1px $brand-white;
+
+$input-placeholder-color: rgba($brand-darkgrey, .5);
+$input-placeholder-color-dark: rgba($brand-darkgrey, .7);
+
+@mixin form-group-color($border: null, $background: null, $text: null) {
+	.form-control,
+	.input-group .input-group-addon {
+		@if $border {
+			border-color: $border !important;
+		}
+
+		@if $background {
+			background-color: $background !important;
+		}
+
+		@if $text {
+			color: $text !important;
+		}
+	}
+
+	.form-control {
+		&:disabled {
+			cursor: not-allowed;
+			opacity: $disabled-opacity;
+		}
+	}
+}

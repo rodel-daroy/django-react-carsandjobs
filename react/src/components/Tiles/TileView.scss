@@ -1,0 +1,35 @@
+@import 'styles/_colors';
+
+.tile-view {
+	position: relative;
+	z-index: 0;
+	background-color: $brand-black;
+
+	display: flex;
+	flex-wrap: wrap;
+	align-content: stretch;
+
+	//margin-top: 75px;
+}
+
+.tile-action {
+	//@include focus-outline($offset: -10px, $selectorSuffix: '.tile-action-outline');
+
+	.tile-action-outline {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		z-index: 1;
+	}
+}
+
+.btn.tile-action {
+	margin: 0;
+	padding: 0;
+	border: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	white-space: normal;
+	text-align: left;
+}

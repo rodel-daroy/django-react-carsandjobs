@@ -1,0 +1,58 @@
+{% extends "admin/base.html" %}
+{% load static %}
+{% load i18n admin_urls %}
+{% block extrastyle %}
+    <style>
+        #select2-id_tile_CTA_article-container {
+            width: 250px;
+        }
+    </style>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="{% static 'admin/js/jquery.init.js' %}"></script>
+{% endblock %}
+{% block subStyle %}{%endblock%}
+
+{% block nav-global %}
+    <span class="sidebar-link-label">
+        <span class="sidebar-link-icon icon-open">
+        </span>
+        Related Links
+        <a href="{% url 'carousel_list' %}" class="sidebar-link icon">
+        <span class="sidebar-link-label">
+
+            <span class="sidebar-link-icon icon-open-external">
+
+            </span>
+
+                                Set Order of Carousel Asset
+        </span>
+        </a>
+    <a href="{% url 'all_tiles_list' %}" class="sidebar-link icon">
+        <span class="sidebar-link-label">
+
+            <span class="sidebar-link-icon icon-open-external">
+
+            </span>
+
+                                Set Order of Tiles
+        </span>
+        </a>
+    <a href="{% url 'services' %}" class="sidebar-link icon">
+        <span class="sidebar-link-label">
+
+            <span class="sidebar-link-icon icon-open-external">
+
+            </span>
+
+                                Services Dashboard
+        </span>
+        </a>
+
+    </span>
+{% endblock %}
+
+

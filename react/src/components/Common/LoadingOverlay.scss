@@ -1,0 +1,29 @@
+@import 'styles/_colors';
+@import 'styles/_layout';
+
+.loading-overlay {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+
+	&-inner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: $content-margin;
+	}
+
+	&.scrim {
+		background: radial-gradient(rgba($brand-white, .95) 20%, rgba($brand-white, .5));
+	}
+}

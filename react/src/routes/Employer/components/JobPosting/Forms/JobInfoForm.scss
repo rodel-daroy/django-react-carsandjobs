@@ -1,0 +1,23 @@
+@import 'styles/_layout';
+
+.job-info-form {
+	&-department:not(:last-child) {
+		margin-bottom: $content-padding;
+	}
+
+	&-language {
+		margin-bottom: $content-padding;
+	}
+
+	&-language-message {
+		margin-bottom: $content-padding;
+		max-width: 500px;
+	}
+
+	&-description {
+		.cm-s-easymde,
+		.simple-markdown-editor-preview {
+			font-size: 1.6rem;
+		}
+	}
+}

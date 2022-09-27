@@ -1,0 +1,143 @@
+@import 'styles/_colors';
+@import 'styles/_layout';
+@import 'styles/_typography';
+
+.paginator {
+	font-family: $font-family-headings;
+	font-weight: $font-weight-semibold;
+
+	ol.pages {
+		list-style-type: none;
+		padding-left: 0;
+		display: flex;
+		margin: 0;
+		justify-content: center;
+
+		li {
+			margin: 0 5px;
+
+			.btn.page-button {
+				background: none;
+				padding: 5px;
+				border: 1px solid transparent;
+				border-radius: 50%;
+				text-transform: uppercase;
+				position: relative;
+				cursor: pointer;
+
+				transition: border-color .5s;
+
+				&:after {
+					content: '';
+					display: block;
+					width: 8px;
+					height: 8px;
+					background-color: lighten($brand-darkgrey, 40%);
+					color: lighten($brand-darkgrey, 40%);
+					border-radius: 50%;
+
+					transition: background-color .5s;
+				}
+
+				&:active {
+					background: none;
+					box-shadow: none;
+				}
+
+				&:hover {
+					&:after {
+						background-color: $brand-red;
+						color: $brand-red;
+					}
+				}
+			}
+
+			&.disabled {
+				.btn.page-button {
+					color: $brand-lightgrey;
+					cursor: not-allowed;
+
+					&.dark {
+						color: $brand-darkgrey;
+					}
+				}
+			}
+
+			&.selected {
+				.btn.page-button {
+					border-color: $brand-darkgrey;
+
+					&.dark {
+						border-color: $brand-darkgrey;
+					}
+
+					&:after {
+						background-color: $brand-darkgrey;
+						color: $brand-darkgrey;
+					}
+
+					/* &.light:after {
+						background-color: $link-color;
+					} */
+
+					&:hover:after {
+						background-color: $brand-red;
+						color: $brand-red;
+					}
+				}
+			}
+		}
+	}
+
+	&.numbers {
+		ol.pages {
+			counter-reset: paginator;
+
+			> li {
+				counter-increment: paginator;
+
+				.btn.page-button {
+					width: $content-margin;
+					height: $content-margin;
+
+					&:after {
+						content: counter(paginator);
+						background: none !important;
+
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%,-50%);
+						width: auto;
+						height: auto;
+					}
+				}
+			}
+		}
+	}
+
+	&.alpha {
+		ol.pages {
+			li {
+				margin: 0;
+
+				.btn.page-button {
+					width: 22px;
+					height: 22px;
+
+					&:after {
+						content: none;
+					}
+
+					.page-button-text {
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						//padding-top: 2px;
+					}
+				}
+			}
+		}
+	}
+}

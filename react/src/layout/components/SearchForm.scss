@@ -1,0 +1,78 @@
+@import 'styles/_layout';
+
+.search-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 30px;
+
+	width: 700px;
+	max-width: 100%;
+
+	&-filter {
+		flex-basis: 0;
+		flex-grow: .5;
+		padding: $content-padding;
+
+		label {
+			font-size: $content-margin;
+			text-transform: lowercase;
+		}
+
+		.field-inner {
+			min-width: 0 !important;
+		}
+
+		.custom-dropdown {
+			min-width: 36px;
+		}
+	}
+
+	&.horizontal {
+		width: 900px;
+		max-width: 65vw;
+	}
+
+	&.vertical {
+		.search-form-button {
+			align-self: stretch;
+			padding-top: 44px;
+		}
+	}
+
+	&-button {
+		font-size: $content-margin;
+	}
+
+	@media (max-width: $screen-md-max) {
+		&.horizontal {
+			.search-form-button-inner {
+				padding-left: $content-padding * 1.5;
+				padding-right: $content-padding * 1.5;
+			}
+		}
+	}
+
+	@media (max-width: $screen-sm-max) {
+		width: 100%;
+		flex-direction: column;
+		align-items: stretch;
+
+		&-filter {
+			flex-basis: auto;
+		}
+
+		&-button {
+			padding-top: 0 !important;
+		}
+
+		.field {
+			margin-bottom: 0;
+		}
+
+		&-button {
+			margin: $content-padding 0;
+			text-align: center;
+		}
+	}
+}

@@ -1,0 +1,73 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+
+.update-form {
+	flex-grow: 1;
+
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+
+	&-md {
+		flex-grow: 1;
+	}
+
+	&-md-master-inner {
+		display: block;
+
+		padding-top: $content-padding;
+		padding-bottom: $content-padding;
+	}
+
+	&-md,
+	&-md-detail {
+		overflow: visible;
+	}
+
+	&-md-detail {
+		max-width: 100%;
+	}
+
+	&-md-master {
+		background-color: $tint-color;
+	}
+
+	&-md-detail-inner {
+		flex-direction: column;
+	}
+
+	&-forms {
+		padding: $content-margin;
+	}
+
+	&-commands-outer {
+		background-color: $brand-lightgrey;
+	}
+
+	&-commands {
+		width: 100%;
+
+		&.mobile {
+			padding-left: $content-padding;
+			padding-right: $content-padding;
+		}
+
+		&.desktop {
+			margin-top: $content-padding;
+			margin-bottom: $content-padding;
+			margin-left: $content-margin;
+		}
+	}
+
+	&-loading .loading-overlay {
+		position: fixed;
+	}
+
+	&-section {
+		margin-bottom: $content-margin * 2;
+	}
+
+	&-back {
+		align-self: flex-start;
+	}
+}

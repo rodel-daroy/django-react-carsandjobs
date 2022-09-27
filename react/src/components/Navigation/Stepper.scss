@@ -1,0 +1,31 @@
+@import 'styles/_colors';
+@import 'styles/_layout';
+
+.stepper {
+	display: inline-block;
+  
+	&.dark {
+		.stepper-button {
+			color: $brand-white;
+		}
+	}
+  
+	.stepper-inner {
+		display: flex;
+		align-items: center;
+	}
+  
+	&.vertical {
+		.stepper-inner {
+			flex-direction: column;
+		}
+	}
+
+	&-button {
+		font-size: 2em !important;
+	}
+
+	.icon:before {
+		width: 2em;
+	}
+}

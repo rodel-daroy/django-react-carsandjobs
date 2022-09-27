@@ -1,0 +1,31 @@
+@import 'styles/_layout';
+
+.invoices-filter-form {
+	&-section {
+		padding-top: 0;
+		padding-bottom: 0;
+		
+		.form-section-body {
+			flex-direction: row;
+			flex-wrap: wrap;
+
+			> .field,
+			> .dealer-field {
+				margin-right: $content-margin;
+			}
+		}
+	}
+
+	@media (max-width: $screen-xs-max) {
+		&-section {
+			.form-section-body {
+				flex-direction: column;
+
+				> .field,
+				> .dealer-field {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}

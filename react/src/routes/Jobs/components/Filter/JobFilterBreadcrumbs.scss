@@ -1,0 +1,18 @@
+.job-filter-breadcrumbs {
+	overflow: hidden;
+
+	.filter-key {
+		text-transform: uppercase;
+		font-size: .8em;
+	}
+
+	li {
+		flex-shrink: 1;
+		overflow: hidden;
+
+		&:first-child,
+		&:last-child {
+			flex-shrink: 0;
+		}
+	}
+}

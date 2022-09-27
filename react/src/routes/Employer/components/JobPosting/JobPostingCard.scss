@@ -1,0 +1,83 @@
+@import 'styles/_colors';
+@import 'styles/_typography';
+@import 'styles/_layout';
+
+.job-posting-card {
+	position: relative;
+	z-index: 0;
+	
+	&-responses {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		min-width: 60px;
+	}
+
+	&-commands {
+		display: flex;
+		align-items: center;
+
+		> * {
+			margin: 0 ($content-padding / 1.5);
+		}
+	}
+
+	&-edit, &-publish {
+		background: none;
+		border: 0;
+
+		.icon {
+			font-size: 2.7rem;
+		}
+	}
+
+	&-title {
+		text-transform: uppercase;
+		color: $brand-darkgrey;
+		font-family: $font-family-headings;
+		font-weight: $font-weight-semibold;
+
+		font-size: 1rem;
+	}
+
+	&-count {
+		flex-grow: 1;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+
+		> span {
+			position: relative;
+			z-index: 1;
+			color: $brand-white !important;
+			font-family: $font-family-body;
+		}
+
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			width: 35px;
+			height: 35px;
+			transform: translate(-50%, -50%);
+			background-color: $brand-red;
+			border-radius: 50%;
+		}
+	}
+
+	&.open {
+		.card-outer:not(:hover) {
+			background-color: $tint-green;
+		}
+	}
+
+	&.closed {
+		.card-outer:not(:hover) {
+			background-color: $tint-red;
+		}
+	}
+}

@@ -1,0 +1,63 @@
+@import 'styles/_layout';
+
+@mixin ratio($size) {
+	.md-layout-master {
+		flex-grow: $size;
+	}
+
+	.md-layout-detail {
+		flex-grow: 100 - $size;
+	}
+}
+
+.md-layout {
+	display: flex;
+	align-items: stretch;
+	width: 100%;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+
+	&-master, &-detail {
+		flex-basis: 0;
+
+		overflow: auto;
+	}
+
+	&.third {
+		@include ratio(33);
+	}
+
+	&.quarter {
+		@include ratio(25);
+	}
+
+	&.reverse {
+		flex-direction: row-reverse;
+	}
+
+	&-master-inner,
+	&-detail-inner {
+		display: flex;
+		width: 100%;
+		padding: 0 $content-margin;
+	}
+
+	@media (max-width: $screen-sm-max) {
+		&.master {
+			.md-layout-detail {
+				display: none;
+			}
+		}
+		
+		&.detail {
+			.md-layout-master {
+				display: none;
+			}
+		}
+
+		&-master-inner,
+		&-detail-inner {
+			padding: 0;
+		}
+	}
+}

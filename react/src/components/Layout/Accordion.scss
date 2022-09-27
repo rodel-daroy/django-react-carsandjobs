@@ -1,0 +1,66 @@
+@import 'styles/_colors';
+@import 'styles/_typography';
+@import 'bootstrap/scss/mixins/_clearfix';
+
+.accordion {
+
+	.accordion-header {
+		padding: 6px 0;
+		border-bottom: 2px solid rgba($brand-darkgrey, .2);
+		width: 100%;
+		position: relative;
+		z-index: 1;
+
+		font-family: $font-family-headings;
+		font-weight: $font-weight-semibold;
+
+		.accordion-button {
+			width: 100%;
+			display: flex;
+			justify-content: stretch;
+			align-items: center;
+			padding-left: 0;
+
+			border: none;
+			background: none;
+
+			&:hover {
+				h3 {
+					color: $brand-red;
+				}
+
+				.btn.expand-button {
+					background-color: $brand-red;
+					border-color: $brand-red;
+				}
+
+				.expand-icon-line {
+					background-color: $brand-white;
+				}
+			}
+
+			&:focus,
+			&.focus {
+				color: inherit;
+			}
+
+			&:active,
+			&.active {
+				box-shadow: none;
+			}
+		}
+
+		.accordion-header-inner {
+			flex-grow: 1;
+			text-align: left;
+		}
+	}
+
+	.accordion-body {
+		overflow: hidden;
+
+		.accordion-body-inner {
+			@include clearfix;
+		}
+	}
+}

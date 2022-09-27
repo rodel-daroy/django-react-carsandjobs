@@ -1,0 +1,89 @@
+@import './_index';
+@import 'styles/_colors';
+
+.tile-edit-dropzone {
+	pointer-events: none;
+	width: 0;
+	position: absolute;
+	height: $tile-height;
+	z-index: 6;
+
+	&:first-child {
+		left: 0;
+	}
+
+	&:last-child {
+		right: 0;
+	}
+
+	&-inner {
+		position: absolute;
+		left: -25px;
+		right: -25px;
+		top: 0;
+		bottom: 0;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 15px;
+			right: 15px;
+			background-color: $brand-darkgrey;
+			pointer-events: auto;
+
+			opacity: .5;
+
+			transition: opacity .2s;
+		}
+
+		opacity: 0;
+
+		transition: opacity .5s, left .2s, right .2s;
+	}
+
+	&-insert {
+		pointer-events: auto;
+		display: none;
+		font-size: 3rem;
+		line-height: 0;
+	}
+
+	&:hover {
+		.tile-edit-dropzone-insert {
+			display: inline-block;
+		}
+	}
+
+	&:hover,
+	&.can-drop {
+		.tile-edit-dropzone-inner {
+			opacity: 1;
+		}
+	}
+
+	&.can-drop {
+		.tile-edit-dropzone-inner {
+			&:before {
+				background-color: $brand-white;
+			}
+		}
+	}
+
+	&.is-over {
+		.tile-edit-dropzone-inner {
+			left: -50px;
+			right: -50px;
+
+			&:before {
+				opacity: .8;
+			}
+		}
+	}
+}

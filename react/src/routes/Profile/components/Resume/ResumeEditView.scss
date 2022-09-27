@@ -1,0 +1,9 @@
+@import 'styles/_layout';
+
+.resume-edit-view {
+	&-form {
+		padding: $content-margin;
+		width: 100%;
+		max-width: $max-text-width;
+	}
+}

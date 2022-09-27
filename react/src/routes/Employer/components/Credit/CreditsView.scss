@@ -1,0 +1,26 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+
+.credits-view {
+	&-content {
+		padding: $content-margin + $content-padding;
+
+		&:nth-child(odd) {
+			background-color: $tint-color;
+		}
+	}
+
+	&-panel {
+		margin: $content-margin 0;
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	&-panel-inner {
+		display: flex;
+		width: 100%;
+		align-items: flex-start;
+	}
+}

@@ -1,0 +1,48 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+
+.saved-jobs-view {
+	/*&-header-strip {
+		background-color: lighten($brand-darkgrey, 15%);
+		color: $brand-white;
+	}*/
+
+	&-md {
+		flex-grow: 1;
+	}
+
+	&-header-md-detail {
+		.md-layout-detail-inner {
+			align-items: center;
+		}
+	}
+
+	&-header-md-master-inner {
+		overflow-x: visible;
+		white-space: nowrap;
+	}
+
+	&-md-detail {
+		display: flex;
+		justify-content: stretch;
+	}
+
+	&-md-detail-inner {
+		padding: $content-margin !important;
+	}
+
+	@media (max-width: $screen-sm-max) {
+		&-list {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+
+		&-md-detail-inner {
+			padding: 0 !important;
+		}
+		
+		/*&-header {
+			margin: 0 $content-margin;
+		}*/
+	}
+}

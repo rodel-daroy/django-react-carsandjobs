@@ -1,0 +1,65 @@
+$screen-sm-min: 641px !default;
+$screen-md-min: 769px !default;
+$screen-lg-min: 1025px !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max: ($screen-sm-min - 1) !default;
+$screen-sm-max: ($screen-md-min - 1) !default;
+$screen-md-max: ($screen-lg-min - 1) !default;
+
+$max-content-width: 1025px;
+$max-text-width: 750px;
+$max-page-width: 1920px;
+$max-modal-content-width: 450px;
+
+$content-margin: 24px;
+$content-padding: 12px;
+
+$relative-v-padding: 1vw;
+
+$disabled-opacity: .5;
+
+$base-border-radius: 5px;
+
+@mixin base-layout {
+	.hidden-xs {
+		@media (max-width: $screen-xs-max) {
+			display: none !important;
+		}
+	}
+
+	.hidden-sm {
+		@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+			display: none !important;
+		}
+	}
+
+	.hidden-md {
+		@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+			display: none !important;
+		}
+	}
+
+	.hidden-lg {
+		@media (min-width: $screen-lg-min) {
+			display: none !important;
+		}
+	}
+
+	.sr-only {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		margin: -1px;
+		padding: 0;
+		overflow: hidden;
+		clip: rect(0,0,0,0);
+		border: 0
+	}
+}
+
+@mixin border-shape($multiplier: 1) {
+	$radius: $base-border-radius * $multiplier;
+
+	border-radius: 0 $radius ($radius * 3) $radius;
+}

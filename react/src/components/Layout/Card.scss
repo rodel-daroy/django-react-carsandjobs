@@ -1,0 +1,151 @@
+@import 'styles/_colors';
+@import 'styles/_layout';
+@import 'styles/_typography';
+
+.card {
+	display: flex;
+
+	&.inactive {
+		background: rgba($brand-lightgrey, .5);
+
+		.card-outer > * {
+			opacity: .5;
+		}
+	}
+
+	&-outer {
+		flex-grow: 1;
+
+		display: flex;
+		align-items: flex-start;
+		appearance: none;
+		background: none;
+		border: none;
+		padding: 0;
+		position: relative;
+
+		text-decoration: none !important;
+		color: inherit !important;
+
+		border-left: 1px solid $brand-lightgrey;
+		border-right: 1px solid $brand-lightgrey;
+
+		&:first-child {
+			border-left: none;
+		}
+
+		&:last-child {
+			border-right: none;
+		}
+
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			width: 8px;
+			background-color: $brand-red;
+			visibility: hidden;
+		}
+
+		&.selected {
+			&:before {
+				visibility: visible;
+			}
+		}
+
+		&.collapse {
+			.card-image {
+				display: none;
+			}
+
+			.card-body {
+				flex-grow: 75;
+				margin-left: 6px;
+			}
+		}
+
+		&.clickable:hover {
+			background-color: $brand-red;
+
+			&, * {
+				color: $brand-white !important;
+			}
+		}
+
+		&:not(.clickable) {
+			background-color: $brand-lightgrey;
+		}
+	}
+
+	&-inner {
+		width: 100%;
+		display: flex;
+		align-items: flex-start;
+		padding: $content-padding 16px;
+	}
+
+	&-image {
+		flex-grow: 0;
+
+		margin-right: $content-margin;
+
+		.icon {
+			font-size: 3rem;
+		}
+	}
+
+	&-body {
+		flex-basis: 0;
+		flex-grow: 50;
+
+		text-align: left;
+	}
+
+	&-name,
+	&-description {
+		margin-bottom: .2em;
+	}
+
+	&-name {
+		font-family: $font-family-headings;
+		font-weight: $font-weight-semibold;
+		font-size: 1.8rem;
+		line-height: normal;
+	}
+
+	&-age {
+		font-size: 1rem;
+		margin-top: 2px;
+		//white-space: nowrap;
+		text-transform: lowercase;
+	}
+
+	&-right {
+		align-self: stretch;
+		flex-basis: 0;
+		flex-grow: 25;
+		
+		text-align: right;
+
+		display: flex;
+		flex-direction: column;
+		margin-left: $content-padding;
+	}
+
+	&-status {
+		margin-top: auto;
+
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+
+		font-style: italic;
+
+		.icon {
+			font-size: 2.7rem;
+		}
+	}
+}

@@ -1,0 +1,114 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+@import 'styles/_typography';
+
+.category-tiles {
+	padding: ($content-margin * 2) $content-padding;
+	
+	background-color: darken($brand-white, 6%);
+
+	&-caption {
+		@include content-body;
+
+		text-align: center;
+		max-width: $max-text-width;
+		margin: 0 auto;
+		padding: 0 $content-margin;
+
+		h1, h2, h3, h4, h5, h6 {
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+
+	&-inner {
+		max-width: $max-content-width;
+		width: 100%;
+		margin: 0 auto;
+		padding: $relative-v-padding 0;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0 $content-padding;
+
+		width: 100%;
+		display: flex;
+		align-items: stretch;
+		justify-content: center;
+		flex-wrap: wrap;
+
+		> li {
+			padding: $content-padding;
+		}
+	}
+
+	.category-tile {
+		width: 100%;
+		height: 100%;
+	}
+
+	&.tiny {
+		ul > li {
+			flex-basis: 20%;
+		}
+	}
+
+	&.small {
+		ul > li {
+			flex-basis: 25%;
+		}
+	}
+
+	&.medium {
+		ul > li {
+			flex-basis: 33.33%;
+		}
+	}
+
+	&.large {
+		ul > li {
+			flex-basis: 50%;
+		}
+	}
+
+	& + .category-tiles {
+		padding-top: 0;
+	}
+
+	@media (max-width: $screen-sm-max) {
+		&-caption {
+			text-align: left;
+		}
+
+		ul {
+			justify-content: flex-start;
+		}
+
+		&.tiny {
+			ul > li {
+				flex-basis: 50%;
+			}
+		}
+
+		&.small {
+			ul > li {
+				flex-basis: 50%;
+			}
+		}
+
+		&.medium, &.large {
+			ul > li {
+				flex-basis: 100%;
+			}
+		}
+	}
+
+	@media (max-width: ($screen-sm-max / 2)) {
+		ul > li {
+			flex-basis: 100% !important;
+		}
+	}
+}

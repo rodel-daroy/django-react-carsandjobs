@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Board Member Dashboard</title>
+</head>
+<body>
+{% if is_board_member %}
+<h1>Board Member Dashboard</h1>
+      {{ member_user.FirstName }}
+    {{ member_user.LastName }}
+    {{ member_user.Email }}
+
+{% endif %}
+
+{% if is_authenticated and not is_board_member %}
+<h1>Board Member Dashboard</h1>
+    <h1>You are logged in but don't have permission to see Board Member Dashboard</h1>
+     {{ member_user.FirstName }}
+    {{ member_user.LastName }}
+    {{ member_user.Email }}
+{% endif %}
+</body>
+</html>

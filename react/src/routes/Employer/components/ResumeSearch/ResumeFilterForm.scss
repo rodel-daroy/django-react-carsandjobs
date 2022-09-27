@@ -1,0 +1,28 @@
+@import 'styles/_layout';
+
+.resume-filter-form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+	&-body {
+		flex-grow: 1;
+
+		overflow: auto;
+		padding: $content-margin;
+	}
+
+	&-order {
+		margin-bottom: 200px;
+	}
+
+	@media (min-width: $screen-md-min) {
+		/* &-body {
+			padding: 0;
+		} */
+
+		/* &-commands {
+			margin: 0 (-$content-margin);
+		} */
+	}
+}

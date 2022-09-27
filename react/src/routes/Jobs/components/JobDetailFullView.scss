@@ -1,0 +1,36 @@
+@import 'styles/_layout';
+
+.job-detail-full-view {
+	&-header {
+		padding-left: $content-margin;
+		padding-right: $content-margin;
+	}
+
+	&-inner {
+		flex-basis: 0;
+		flex-grow: 1;
+		position: relative;
+		margin: $content-margin;
+
+		overflow: auto;
+
+		.job-detail-view {
+			/* position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			max-width: $max-content-width; */
+			height: 100%;
+		}
+	}
+
+	&-browse {
+		margin-left: auto;
+	}
+	
+	@media (max-width: $screen-md-max) {
+		&-inner {
+			margin: 0;
+		}
+	}
+}

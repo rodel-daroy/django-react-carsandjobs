@@ -1,0 +1,19 @@
+@import 'styles/_layout';
+
+.with-signin-modal-frame {
+	&.mobile {
+		form {
+			padding: $content-margin;
+		}
+	}
+}
+
+.with-signin-title {
+	display: flex;
+	align-items: baseline;
+
+	&-register {
+		font-size: 1em;
+		margin: 0 $content-padding;
+	}
+}

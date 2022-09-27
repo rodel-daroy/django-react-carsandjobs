@@ -1,0 +1,63 @@
+@import './_common';
+
+.text-field {
+	.input-group {
+		display: flex;
+		width: 100%;
+		min-height: $input-height-base;
+
+		> .form-control {
+			&:first-child {
+				padding-right: 6px;
+
+				border: {
+					right: none;
+					top-right-radius: 0;
+					bottom-right-radius: 0;
+				}
+			}
+
+			&:last-child {
+				padding-left: 6px;
+
+				border: {
+					left: none;
+					top-left-radius: 0;
+					bottom-left-radius: 0;
+				}
+			}
+		}
+	}
+
+	.input-group-addon {
+		display: flex;
+		align-items: center;
+		padding: 0 8px;
+
+		border: {
+			style: solid;
+			width: 1px;
+			radius: $input-border-radius;
+		}
+
+		&:first-child {
+			padding-right: 6px;
+
+			border: {
+				right: none;
+				top-right-radius: 0;
+				bottom-right-radius: 0;
+			}
+		}
+
+		&:last-child {
+			padding-left: 6px;
+
+			border: {
+				left: none;
+				top-left-radius: 0;
+				bottom-left-radius: 0;
+			}
+		}
+	}
+}

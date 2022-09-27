@@ -1,0 +1,67 @@
+@import 'styles/_colors';
+@import 'styles/_layout';
+
+.form-section {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	max-width: 100%;
+
+	&, &-body {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	&-body {
+		max-width: $max-text-width;
+		width: 100%;
+	}
+
+	&-header {
+		align-self: stretch;
+		
+		padding-top: 20px;
+		padding-bottom: 7px;
+		border-bottom: 1px solid $brand-lightgrey;
+		margin-bottom: 32px;
+
+		&:first-child {
+			border-top: 1px solid $brand-lightgrey;
+		}
+
+		h1, h2, h3, h4, h5, h6 {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		h1 {
+			//@include title-1;
+			margin-top: 0;
+			margin-bottom: 0;
+			font-size: 1.5em;
+			text-transform: uppercase;
+		}
+	}
+
+	&.first {
+		padding-top: 0;
+
+		.form-section-header {
+			border-top: none !important;
+			padding-top: 0;
+		}
+	}
+
+	&.nested {
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 24px;
+		margin-bottom: 20px;
+
+		background-color: rgba($brand-lightgrey, .2);
+	}
+
+	&.last {
+		margin-bottom: 0 !important;
+	}
+}

@@ -1,0 +1,90 @@
+@import 'styles/_layout';
+
+.jobs-view {
+	.breadcrumbs, .job-filter {
+		margin: $content-padding 0;
+	}
+
+	.breadcrumbs {
+		margin-right: $content-margin;
+	}
+	
+	&-back {
+		margin-right: $content-padding;
+	}
+
+	&-refine {
+		flex-shrink: 0;
+
+		margin-left: auto;
+	}
+
+	&-md {
+		flex-grow: 1;
+	}
+
+	&-md-master,
+	&-md-detail {
+		display: flex;
+		justify-content: stretch;
+	}
+
+	&-md-detail-inner {
+		padding: $content-margin;
+	}
+
+	&.browse {
+		.jobs-view-md-master-inner {
+			padding: 0;
+		}
+
+		.jobs-view-md-detail-inner {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+
+		.jobs-view-browse-refine {
+			padding: $content-padding $content-margin;
+		}
+	}
+
+	&-modal-frame {
+		height: 100%;
+
+		.responsive-modal-frame-content {
+			flex-grow: 1;
+		}
+
+		&.mobile {
+			.job-filter-form-fields {
+				padding: $content-margin;
+				overflow: auto;
+			}
+		}
+	}
+
+	&-commands {
+		margin-left: auto;
+	}
+
+	&-show-all-provinces {
+		text-align: center;
+		padding: $content-padding;
+	}
+
+	@media (min-width: $screen-md-min) {
+		&-back {
+			display: none;
+		}
+	}
+
+	@media (max-width: $screen-sm-max) {
+		&-header {
+			padding: 0 $content-margin;
+		}
+
+		&-md-detail-inner {
+			padding: 0;
+		}
+	}
+}

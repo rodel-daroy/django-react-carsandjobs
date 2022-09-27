@@ -1,0 +1,70 @@
+{
+  "list_education": [
+    {
+      "id": "1",
+      "edu": "University Degree",
+      "status": "1",
+      "fr": "Diplôme universitaire"
+    },
+    {
+      "id": "2",
+      "edu": "Trade School",
+      "status": "1",
+      "fr": "Diplôme de métier"
+    },
+    {
+      "id": "3",
+      "edu": "College Diploma",
+      "status": "1",
+      "fr": "Diplôme d%u2019études collégiales"
+    },
+    {
+      "id": "4",
+      "edu": "High School or equivalent",
+      "status": "1",
+      "fr": "Diplôme d%u2019études secondaires ou équivalent"
+    },
+    {
+      "id": "5",
+      "edu": "Associate Degree",
+      "status": "1",
+      "fr": "Grade d%u2019associé"
+    },
+    {
+      "id": "6",
+      "edu": "Bachelors Degree",
+      "status": "1",
+      "fr": "Baccalauréat"
+    },
+    {
+      "id": "7",
+      "edu": "Masters Degree",
+      "status": "1",
+      "fr": "Maîtrise"
+    },
+    {
+      "id": "8",
+      "edu": "Doctorate",
+      "status": "1",
+      "fr": "Doctorat"
+    },
+    {
+      "id": "9",
+      "edu": "Professional",
+      "status": "1",
+      "fr": "Diplôme d%u2019études professionnelles"
+    },
+    {
+      "id": "10",
+      "edu": "Not pursuing graduation",
+      "status": "1",
+      "fr": "Pas d%u2019études menant à un diplôme"
+    },
+    {
+      "id": "11",
+      "edu": " N/A",
+      "status": "1",
+      "fr": " S.o."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+.page-stepper {
+	&.small {
+		position: static;
+		margin-top: 0;
+		padding: 12px;
+		transform: none;
+
+		.page-stepper-arrows {
+			width: 142px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+  
+	.page-stepper-arrows {
+		flex-grow: 1;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+  
+	.page-stepper-previous,
+	.page-stepper-next {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		pointer-events: auto;
+	}
+  
+	.page-stepper-index {
+		font-size: 16px;
+	}
+  
+	.page-stepper-page {
+		pointer-events: auto;
+	}
+  
+	.paginator {
+		margin: 0 16px;
+	}
+}

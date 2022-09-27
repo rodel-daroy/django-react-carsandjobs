@@ -1,0 +1,11 @@
+@import 'styles/_layout';
+@import 'styles/_typography';
+
+.region-selector {
+	display: flex;
+	align-items: center;
+
+	&-region {
+		margin-bottom: 0;
+	}
+}

@@ -1,0 +1,181 @@
+@import 'styles/_colors';
+@import 'styles/_typography';
+@import 'styles/_layout';
+@import 'bootstrap/scss/mixins/_clearfix';
+@import './_common';
+
+.field {
+	text-align: left;
+	margin-bottom: 32px;
+
+	display: flex;
+	flex-direction: column;
+
+	.field-inner {
+		min-width: 260px;
+	}
+
+	&.small {
+		.field-inner {
+			min-width: 0;
+			width: 160px;
+		}
+	}
+
+	&.horizontal {
+		flex-direction: row;
+		align-items: baseline;
+
+		margin-bottom: 0;
+
+		> label {
+			margin-right: $content-padding;
+		}
+
+		.field-inner {
+			flex-basis: 0;
+			flex-grow: 1;
+
+			min-width: 0;
+		}
+	}
+  
+	&.last {
+		margin-bottom: 0 !important;
+	}
+  
+	label {
+		@include field-label;
+
+		color: $brand-darkgrey;
+	}
+  
+	&.dark label {
+		color: $brand-lightgrey;
+	}
+  
+	.form-control {
+		width: 100%;
+		font-size: 18px;
+		padding: 0 ($content-padding * 1.5);
+		font-weight: $font-weight-light;
+		border: {
+			style: solid;
+			width: 1px;
+			radius: $input-border-radius;
+		}
+
+		outline: none !important;
+		appearance: none;
+
+		&::placeholder {
+			color: $input-placeholder-color;
+		}
+
+		&::-moz-placeholder {
+			opacity: 1;
+		}
+
+		&[readonly] {
+			background-color: rgba($brand-lightgrey, .5) !important;
+		}
+	}
+
+	&.dark .form-control {
+		&::placeholder {
+			color: $input-placeholder-color-dark;
+		}
+	}
+  
+	.form-group-line {
+		display: flex;
+		align-items: stretch;
+		position: relative;
+		//z-index: 1;
+
+		> .form-control {
+			height: auto;
+			min-height: $input-height-base;
+		}
+
+		> span {
+			display: inline-flex;
+		}
+
+		.form-group-line-button {
+			.btn {
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+		}
+	}
+  
+	.form-group-children {
+		@include clearfix;
+
+		position: relative;
+		z-index: 2;
+
+		.help-block {
+			margin: 0;
+			padding-top: 5px;
+			font-size: 1.3rem;
+		}
+	}
+  
+	@include form-group-color($input-border, $input-bg, $input-color);
+  
+	&.dark {
+		@include form-group-color($border: $input-border-dark, $background: $input-bg-dark, $text: $input-color-dark);
+	}
+  
+	&.focused {
+		@include form-group-color($input-border-focus);
+
+		&.dark {
+			@include form-group-color($input-color-dark);
+
+			.form-control {
+				box-shadow: $input-box-shadow-dark;
+			}
+		}
+	}
+  
+	&.autofilled/* ,
+	&:-webkit-autofill,
+	&:-moz-autofill */ {
+	  	@include form-group-color($brand-blue);
+  
+		.input-group .input-group-addon {
+			color: $brand-blue !important;
+		}
+
+		.help-block {
+			color: $brand-blue;
+		}
+	}
+  
+	&.has-error {
+	  	@include form-group-color($brand-red);
+  
+		.input-group .input-group-addon {
+			color: $brand-red !important;
+		}
+
+		.help-block {
+			color: $brand-red;
+		}
+	}
+  
+	&.has-warning {
+		@include form-group-color($brand-orange);
+  
+		.input-group .input-group-addon {
+			color: $brand-orange !important;
+		}
+
+		.help-block {
+			color: $brand-orange;
+		}
+	}
+}

@@ -1,0 +1,32 @@
+@import 'styles/_layout';
+
+.resume-form {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+
+	position: relative;
+	padding: 0 $content-padding;
+
+	&-text {
+		position: relative;
+
+		textarea {
+			min-height: 250px !important;
+		}
+	}
+
+	&-commands-outer {
+		margin-top: auto;
+		padding-top: $content-margin * 2;
+	}
+
+	@media (max-width: $screen-xs-max) {
+		padding: 0;
+
+		&-commands {
+			margin: -$content-margin;
+			margin-top: 0;
+		}
+	}
+}

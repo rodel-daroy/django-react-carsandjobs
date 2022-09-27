@@ -1,0 +1,94 @@
+@import 'styles/_colors';
+@import 'styles/_layout';
+@import 'styles/_typography';
+
+.job-detail {
+	display: flex;
+	align-items: stretch;
+	justify-content: stretch;
+	background-color: $brand-white;
+	position: relative;
+	overflow: hidden;
+
+	&-outer {
+		width: 100%;
+		overflow: auto;
+	}
+
+	&-header-sticky {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		z-index: 1;
+
+		transform: translateY(-100%);
+		transition: transform .4s;
+
+		&.visible {
+			transform: none;
+		}
+	}
+
+	&-sticky-waypoint {
+		&-enter {
+			position: relative;
+			top: -100px;
+		}
+
+		&-leave {
+			position: relative;
+			top: -70px;
+		}
+	}
+
+	&-commands {
+		display: flex;
+		padding: {
+			top: $content-margin / 1.5;
+			bottom: $content-margin / 1.5;
+			right: $content-margin;
+		}
+	}
+
+	&-header-outer {
+		position: relative;
+		z-index: 1;
+	}
+
+	&-body {
+		padding: {
+			left: $content-margin;
+			right: $content-margin;
+			bottom: $content-margin / 1.5;
+		}
+	}
+
+	&-description { 
+		@include content-body;
+
+		max-width: $max-text-width;
+	}
+
+	&.template {
+		.job-detail-description {
+			code {
+				color: $brand-blue;
+			}
+		}
+	}
+
+	&-header-sticky-small {
+		z-index: 2;
+	}
+
+	@media (max-width: $screen-sm-max) {
+		&-header-sticky {
+			transform: none;
+		}
+
+		&-sticky-waypoint-enter {
+			top: 0;
+		}
+	}
+}

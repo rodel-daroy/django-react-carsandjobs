@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<source>
+    <publisher>CarsandJobs.com</publisher>
+    <publisherurl>http://www.carsandjobs.com</publisherurl>
+    <lastBuildDate>{{date}}</lastBuildDate>
+    {% for job in jobs %}
+    <job>
+        {% if job.available_for_en == True %}
+    <title>
+        <![CDATA[ {{job.title_en}} ]]>
+    </title>
+        {% elif job.available_for_fr == True%}
+    <title>
+        <![CDATA[ {{job.title_fr}} ]]>
+    </title>
+        {% endif %}
+
+    <date>
+        <![CDATA[ {{date}} ]]>
+    </date>
+    <referencenumber>
+        <![CDATA[ {{job.slug}} ]]>
+    </referencenumber>
+    <url>
+        <![CDATA[ https://www.carsandjobs.com/jobs/detail?id={{job.slug}} ]]>
+    </url>
+    <company>
+        <![CDATA[ {{job.dealer}} ]]>
+    </company>
+    <city>
+        <![CDATA[ {{job.city}} ]]>
+    </city>
+    <state>
+        <![CDATA[ {{job.province}} ]]>
+    </state>
+    <country>
+        <![CDATA[ CA ]]>
+    </country>
+    <postalcode>
+        <![CDATA[ {{job.postal_code}} ]]>
+    </postalcode>
+    {% if job.available_for_en == True %}
+    <description>
+        <![CDATA[ <p>{{job.description_en}}</p> ]]>
+    </description>
+    {% elif job.available_for_fr == True %}
+    <description>
+        <![CDATA[ <p>{{job.description_fr}}</p> ]]>
+    </description>
+    {% endif %}
+    <category>
+        <![CDATA[ no data available ]]>
+    </category>
+
+    </job>
+
+    {% endfor %}
+</source>

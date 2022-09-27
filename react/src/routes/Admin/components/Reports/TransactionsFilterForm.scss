@@ -1,0 +1,29 @@
+@import 'styles/_layout';
+
+.transactions-filter-form {
+	&-section {
+		padding-top: 0;
+		padding-bottom: 0;
+
+		.form-section-body {
+			flex-direction: row;
+			flex-wrap: wrap;
+
+			> .field {
+				margin-right: $content-margin;
+			}
+		}
+	}
+
+	@media (max-width: $screen-xs-max) {
+		&-section {
+			.form-section-body {
+				flex-direction: column;
+
+				> .field {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}

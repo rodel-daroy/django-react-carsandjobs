@@ -1,0 +1,14 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+
+.content-block {
+	padding: $content-margin;
+
+	&-inner {
+		padding: $content-padding;
+	}
+
+	&:nth-child(odd) {
+		background-color: $tint-color;
+	}
+}

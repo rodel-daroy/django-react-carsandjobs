@@ -1,0 +1,12 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+
+.credits-view {
+	&-debits:not(:empty) {
+		background-color: $tint-red;
+	}
+
+	&-credits:not(:empty) {
+		background-color: $tint-green;
+	}
+}

@@ -1,0 +1,63 @@
+@import 'styles/_colors';
+@import 'styles/_typography';
+@import 'styles/_layout';
+
+.primary-link {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+
+	appearance: none;
+	background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+
+	&:disabled, &[disabled] {
+		cursor: not-allowed;
+		opacity: $disabled-opacity;
+	}
+
+	&.small {
+		@include primary-link('small');
+
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+
+	&.large {
+		@include primary-link('large');
+	}
+
+	&.x-large {
+		@include primary-link('x-large');
+	}
+
+	> .icon {
+		&:first-child {
+			margin-right: 4px;
+
+			&:before {
+				margin-left: 0;
+			}
+		}
+
+		&:last-child {
+			margin-left: 4px;
+
+			&:before {
+				margin-right: 0;
+			}
+		}
+	}
+
+	&.clip {
+		overflow: hidden;
+		white-space: nowrap;
+
+		> .primary-link-children {
+			text-overflow: ellipsis;
+			overflow: hidden;
+		}
+	}
+}

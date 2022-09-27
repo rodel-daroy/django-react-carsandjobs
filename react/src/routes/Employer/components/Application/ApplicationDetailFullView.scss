@@ -1,0 +1,32 @@
+@import 'styles/_layout';
+
+.application-detail-full-view {
+	&-header {
+		padding-left: $content-margin;
+		padding-right: $content-margin;
+	}
+
+	&-inner {
+		flex-basis: 0;
+		flex-grow: 1;
+		position: relative;
+		margin: $content-margin;
+
+		overflow: auto;
+
+		.application-detail {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			max-width: $max-content-width;
+			height: 100%;
+		}
+	}
+
+	@media (max-width: $screen-md-max) {
+		&-inner {
+			margin: 0;
+		}
+	}
+}

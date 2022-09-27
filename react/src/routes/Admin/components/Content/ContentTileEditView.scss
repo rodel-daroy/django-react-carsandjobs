@@ -1,0 +1,16 @@
+.content-tile-edit-view {
+	position: relative;
+
+	&-modal {
+		&-modal-content {
+			display: flex;
+		}
+	}
+
+	&-insert {
+		&,
+		.responsive-modal-frame-content:not(.mobile) {
+			max-width: 800px;
+		}
+	}
+}

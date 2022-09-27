@@ -1,0 +1,40 @@
+{
+  "list_positionTypes": [
+    {
+      "id": "1",
+      "posType": "Permanent - Full Time",
+      "status": "1",
+      "fr": "Permanent à temps plein"
+    },
+    {
+      "id": "2",
+      "posType": "Permanent - Part Time",
+      "status": "1",
+      "fr": "Permanent à temps partiel"
+    },
+    {
+      "id": "3",
+      "posType": "Freelance",
+      "status": "1",
+      "fr": "À la pige"
+    },
+    {
+      "id": "4",
+      "posType": "Contract",
+      "status": "1",
+      "fr": "Contractuel"
+    },
+    {
+      "id": "5",
+      "posType": "Co-op Student",
+      "status": "1",
+      "fr": "Étudiant stagiaire"
+    },
+    {
+      "id": "6",
+      "posType": "Apprentice ",
+      "status": "1",
+      "fr": "Apprenti "
+    }
+  ]
+}

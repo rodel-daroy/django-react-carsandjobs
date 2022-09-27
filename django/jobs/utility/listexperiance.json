@@ -1,0 +1,46 @@
+{
+  "list_experience": [
+    {
+      "id": "1",
+      "exp": "None",
+      "status": "1",
+      "fr": "Aucune"
+    },
+    {
+      "id": "2",
+      "exp": "Under 1 year",
+      "status": "1",
+      "fr": "Moins de 1 an"
+    },
+    {
+      "id": "3",
+      "exp": "Between 1 to 3 years",
+      "status": "1",
+      "fr": "De 1 à 3 ans"
+    },
+    {
+      "id": "4",
+      "exp": "Between 3 to 5 years",
+      "status": "1",
+      "fr": "De 3 à 5 ans"
+    },
+    {
+      "id": "5",
+      "exp": "Between 5 to 10 years",
+      "status": "1",
+      "fr": "De 5 à 10 ans"
+    },
+    {
+      "id": "6",
+      "exp": "Over 10 years",
+      "status": "1",
+      "fr": "Plus de 10 ans"
+    },
+    {
+      "id": "7",
+      "exp": "-",
+      "status": "1",
+      "fr": "-"
+    }
+  ]
+}

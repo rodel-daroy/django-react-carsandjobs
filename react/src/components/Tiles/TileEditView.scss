@@ -1,0 +1,9 @@
+@import 'styles/_layout';
+
+.tile-edit-view {
+	overflow: hidden;
+
+	&-add {
+		padding: ($content-margin + $content-padding);
+	}
+}

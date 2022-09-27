@@ -1,0 +1,10 @@
+@import 'styles/_layout';
+
+.region-selector-form {
+	flex-direction: column;
+	align-items: flex-start;
+
+	&-language {
+		margin-bottom: $content-padding;
+	}
+}

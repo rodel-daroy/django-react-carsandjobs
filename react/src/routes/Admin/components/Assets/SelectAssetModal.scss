@@ -1,0 +1,21 @@
+.select-asset-modal {
+	&-modal-content {
+		display: flex;
+	}
+
+	&-inner {
+		width: 80vw;
+		max-height: 80vh;
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+	}
+
+	&-tabs {
+		min-height: 0;
+
+		.tab-set-content {
+			overflow: auto;
+		}
+	}
+}

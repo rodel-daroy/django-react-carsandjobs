@@ -1,0 +1,156 @@
+
+@import 'styles/_typography';
+@import 'styles/_colors';
+@import 'styles/_layout';
+
+$tabset-keyline-thickness: 2px;
+$tabset-selected-keyline: 4px;
+
+.tab-set {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	
+	&-tabs {
+		flex-shrink: 0;
+		
+		display: flex;
+		align-items: stretch;
+		justify-content: flex-start;
+		position: relative;
+		overflow: hidden;
+	
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			height: $tabset-keyline-thickness;
+			background-color: $brand-lightgrey;
+		}
+	}
+	
+	&-tab {
+		flex-shrink: 1;
+	
+		> label {
+			padding-right: 30px; 
+			font-size: 15px;
+		
+			box-sizing: border-box;
+			display: inline-block;
+			padding: {
+				top: 14px;
+				right: 5vw;
+				bottom: 14px;
+				left: 0;
+			}
+			color: lighten($brand-darkgrey, 25%);
+			font-family: $font-family-headings;
+			font-size: 16px;
+			font-weight: $font-weight-semibold;
+			margin-bottom:0px;
+			margin-left: 0px;
+			text-transform: uppercase;
+			cursor: pointer;
+			border-bottom: $tabset-keyline-thickness solid transparent;
+			position: relative;
+			height: 100%;
+		
+			&:hover {
+				//color: $brand-black;
+				border-bottom-color: $brand-red !important;
+			}
+		}
+	
+		> input {
+			position: absolute;
+			opacity: 0;
+			
+			//@include focus-outline($offset: -1px, $selectorSuffix: '+ label');
+		
+			&:checked + label {
+				position: relative;
+				color: $brand-black;
+				border-radius: 0;
+		
+				border-bottom-color: $brand-red !important;
+
+				&:after {
+					content: '';
+					display: block;
+					position: absolute;
+					left: 0;
+					right: 0;
+					bottom: -$tabset-keyline-thickness;
+					height: $tabset-selected-keyline;
+					background-color: $brand-red;
+				}
+			}
+		}
+	}
+
+	&.animating {
+		.tab-set-tab {
+			> input {
+				&:checked + label {
+					border-bottom-color: transparent;
+				}
+			}
+		}
+
+		.tab-set-indicator {
+			visibility: visible;
+		}
+	}
+	
+	&-content {
+		padding: ($content-margin / 1.5) 0;
+		position: relative;
+	}
+
+	&-content-tab {
+		&:not(.visible) {
+			display: none !important;
+		}
+	}
+
+	&-indicator {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		height: $tabset-keyline-thickness;
+		width: 100px;
+		background-color: $brand-red;
+		visibility: hidden;
+	}
+	
+	@media (max-width: $screen-xs-max) {
+		&-tabs {
+			margin-left: -$content-margin;
+			margin-right: -$content-margin;
+			justify-content: stretch;
+		}
+	
+		&-tab {
+			flex-grow: 1;
+			flex-shrink: 1;
+			flex-basis: 0;
+			text-align: center;
+		
+			> label {
+				display: block;
+				padding-left: 0;
+				padding-right: 0;
+				font-size: 14px;
+			}
+		
+			> input:checked + label:after {
+				left: 0;
+				right: 0;
+			}
+		}
+	}
+}

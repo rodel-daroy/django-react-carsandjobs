@@ -1,0 +1,50 @@
+@import 'styles/_layout';
+@import './_index';
+
+.tile-slot {
+	position: relative;
+	height: $tile-height;
+  
+	flex-grow: 0;
+	flex-shrink: 0;
+  
+	&.size-1 {
+		flex-basis: 25%;
+	}
+
+	&.size-2 {
+		flex-basis: 50%;
+	}
+
+	&.size-3 {
+		flex-basis: 75%;
+	}
+
+	&.size-4 {
+		flex-basis: 100%;
+	}
+
+	&.grow {
+		flex-grow: 1;
+	}
+  
+	&.md {
+		&.size-1 {
+			flex-basis: 50%;
+		}
+
+		&.size-2 {
+			flex-basis: 100%;
+		}
+	}
+  
+	&.sm {
+		&.size-1 {
+			flex-basis: 100%;
+		}
+
+		&.size-2 {
+			flex-basis: 100%;
+		}
+	}
+}

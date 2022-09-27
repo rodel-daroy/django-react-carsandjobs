@@ -1,0 +1,15 @@
+@import 'styles/_typography';
+@import 'styles/_layout';
+
+.job-stats-view {
+	&-table {
+		//@include content-body;
+
+		margin: 0;
+		padding: 0;
+	}
+
+	/* &-table-total {
+		font-weight: $font-weight-bold;
+	} */
+}

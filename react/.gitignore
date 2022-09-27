@@ -1,0 +1,8 @@
+*~
+.DS_Store
+node_modules
+src/**/*.css
+!src/fonts/**/*.css
+build
+src/generated/**/*
+.serverless

@@ -1,0 +1,26 @@
+@import 'styles/_layout';
+
+.application-card {
+	&-resume,
+	&-email {
+		background: none;
+		border: 0;
+		align-items: center;
+
+		.icon {
+			font-size: 2.7rem;
+		}
+	}
+
+	.card-description {
+		word-break: break-word;
+	}
+
+	&-commands {
+		display: flex;
+
+		> * {
+			margin: 0 ($content-padding / 1.5);
+		}
+	}
+}

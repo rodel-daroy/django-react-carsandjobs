@@ -1,0 +1,112 @@
+@import '~react-datepicker/dist/react-datepicker.css';
+@import 'styles/_colors';
+@import 'styles/_typography';
+
+.custom-date-field {
+	.form-control {
+		height: auto;
+    	min-height: 50px;
+	}
+
+	> .field-inner > .form-group-line {
+		> div {
+			width: 100%;
+		}
+	}
+
+	.react-datepicker-popper {
+		z-index: 3;
+	}
+
+	.react-datepicker {
+		font-size: 1.5rem;
+		font-family: $font-family-headings;
+		font-weight: $font-weight-semibold;
+		border-color: $brand-lightgrey;
+
+		&-wrapper,
+		&__input-container {
+			width: 100%;
+		}
+
+		&__header {
+			background-color: $brand-lightgrey;
+			border-bottom: none;
+		}
+
+		&__current-month, &-time__header {
+			font-size: 1.5rem;
+		}
+
+		&__day-name, &__day, &__time-name {
+			width: 3.5rem;
+			line-height: 3.5rem;
+		}
+
+		&__navigation {
+			top: 1em;
+		}
+
+		&__day {
+			font-family: $font-family-body;
+			border: 1px solid transparent;
+
+			&--weekend {
+				color: lighten($brand-darkgrey, 15%);
+			}
+
+			&--outside-month {
+				color: $brand-lightgrey;
+			}
+
+			&--today {
+				border-color: $brand-blue;
+				border-radius: .3rem;
+			}
+
+			&--selected, &--in-selecting-range, &--in-range {
+				border-color: $brand-red;
+				background-color: $brand-red;
+				font-weight: $font-weight-bold;
+				color: $brand-white;
+			}
+
+			&:hover, &--keyboard-selected {
+				background-color: transparent;
+				border-color: $brand-red;
+				color: $brand-black;
+			}
+
+			&-name {
+				color: $brand-darkgrey;
+			}
+		}
+
+		&__navigation {
+			transform: scale(1.2);
+
+			&--next {
+				border-left-color: $brand-red;
+			}
+			&--previous {
+				border-right-color: $brand-red;
+			}
+		}
+
+		&-popper[data-placement^="bottom"] .react-datepicker__triangle {
+			border-bottom-color: $brand-lightgrey;
+
+			&:before {
+				border-bottom-color: $brand-lightgrey;
+			}
+		}
+
+		&-popper[data-placement^="top"] .react-datepicker__triangle {
+			border-top-color: $brand-lightgrey;
+
+			&:before {
+				border-top-color: $brand-lightgrey;
+			}
+		}
+	}
+}

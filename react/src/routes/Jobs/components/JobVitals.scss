@@ -1,0 +1,21 @@
+@import 'styles/_layout';
+
+.job-vitals {
+	display: flex;
+	flex-wrap: wrap;
+
+	&-group {
+		flex-basis: 50%;
+		margin-bottom: $content-margin;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	@media (max-width: $screen-xs-max) {
+		&-group {
+			flex-basis: 100%;
+		}
+	}
+}

@@ -1,0 +1,34 @@
+@import 'styles/_layout';
+@import 'styles/_typography';
+@import 'styles/_colors';
+
+.link-block {
+	padding: ($content-margin * 2) 0;
+
+	&-inner {
+		margin: 0 auto;
+		padding: calc(#{$content-margin} + #{$relative-v-padding}) ($content-padding + $content-margin);
+		text-align: center;
+		max-width: $max-text-width;
+	}
+
+	&-content {
+		@include content-body;
+
+		h1, h2, h3, h4, h5, h6 {
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+
+	&:nth-child(even) {
+		background-color: $tint-color;
+	}
+
+	@media (max-width: $screen-sm-max) {
+		&-inner {
+			text-align: left;
+		}
+	}
+}

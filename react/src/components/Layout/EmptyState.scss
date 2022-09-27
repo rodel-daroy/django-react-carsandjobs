@@ -1,0 +1,36 @@
+@import 'styles/_colors';
+@import 'styles/_layout';
+@import 'styles/_typography';
+
+.empty-state {
+	font-style: italic;
+	text-align: center;
+	width: 100%;
+	min-height: 400px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: $content-padding;
+	padding-bottom: 5rem;
+
+	color: $brand-darkgrey;
+
+	font-size: 2rem;
+
+	&.inline {
+		min-height: 0;
+		padding: $content-padding;
+
+		font-size: 1.2em;
+	}
+
+	strong {
+		font-style: normal;
+		font-family: $font-family-headings;
+		font-weight: $font-weight-bold;
+		text-transform: uppercase;
+		margin: .1em;
+		color: $brand-black;
+	}
+}

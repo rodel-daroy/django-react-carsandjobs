@@ -1,0 +1,35 @@
+@import 'styles/_colors';
+@import 'styles/_typography';
+
+.attribution {
+	font-family: $font-family-headings;
+	font-weight: $font-weight-semibold;
+	font-size: 1.6rem;
+
+	> ul {
+		display: flex;
+		flex-direction: column;
+
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		> li {
+			padding: .3em 0;
+			margin: 0;
+		}
+	}
+
+	&-author {
+		color: lighten($brand-darkgrey, 15%);
+		font-weight: $font-weight-bold;
+	}
+
+	&-author-link {
+		padding: 0 !important;
+	}
+
+	&-date {
+		border-top: 1px solid $brand-darkgrey;
+	}
+}

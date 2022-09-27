@@ -1,0 +1,30 @@
+@import 'styles/_colors';
+@import 'styles/_layout';
+
+.job-detail-view {
+	width: 100%;
+	max-width: $max-content-width;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: stretch;
+	justify-content: stretch;
+
+	//margin-top: 24px;
+	//margin-bottom: 24px;
+
+	border: 1px solid $brand-lightgrey;
+
+	.job-detail {
+		width: 100%;
+	}
+
+	&:empty {
+		display: none;
+	}
+
+	@media (max-width: $screen-sm-max) {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}

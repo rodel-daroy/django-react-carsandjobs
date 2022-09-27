@@ -1,0 +1,28 @@
+@import 'styles/_colors';
+
+.job-filter-field {
+	display: flex;
+	align-items: center;
+
+	&-count {
+		background-color: $brand-lightgrey;
+		border-radius: 50%;
+		color: $brand-darkgrey;
+		font-size: 10px;
+
+		position: relative;
+		width: 20px;
+		min-width: 20px;
+		height: 20px;
+		min-height: 20px;
+		display: inline-block;
+		margin-right: 8px;
+
+		> span {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
+}

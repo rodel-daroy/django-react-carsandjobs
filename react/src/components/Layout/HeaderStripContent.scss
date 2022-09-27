@@ -1,0 +1,26 @@
+@import 'styles/_layout';
+@import 'styles/_typography';
+
+.header-strip-content {
+	display: flex;
+	align-items: center;
+	width: 100%;
+
+	&-back {
+		margin-left: 0 !important;
+		margin-right: $content-margin !important;
+		border: none;
+	}
+
+	h1 {
+		font-size: 1.8rem;
+		font-weight: $font-weight-semibold;
+		margin: 0;
+	}
+
+	@media print {
+		&-back {
+			display: none;
+		}
+	}
+}

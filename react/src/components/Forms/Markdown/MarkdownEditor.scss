@@ -1,0 +1,99 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+@import 'styles/_typography';
+@import '../_common';
+
+.markdown-editor {
+	//General
+
+	$mde-border-radius:                 $input-border-radius !default;
+	$mde-border-color:                 	$input-border !default;
+	$mde-button-color:                  $brand-black !default;
+	$mde-toolbar-color:                 #f9f9f9 !default;
+	$mde-toolbar-padding:               10px !default;
+	$mde-editor-default-min-height:     200px !default;
+	$mde-editor-default-height:         auto !default;
+	$mde-editor-padding:                10px 10px $content-margin 10px !default;
+	$mde-preview-horizontal-padding:    10px !default;
+	$mde-preview-padding:               10px !default;
+	$mde-preview-default-min-height:    $mde-editor-default-min-height !default;
+	$mde-preview-default-height:        auto !default;
+
+
+	// Layout specific variables
+
+	$mde-editor-vertical-min-height:    $mde-editor-default-min-height !default;
+	$mde-editor-vertical-height:        auto !default;
+	$mde-preview-vertical-min-height:   0 !default;
+	$mde-preview-vertical-height:       auto !default;
+
+	@import 'react-mde/lib/styles/scss/react-mde-toolbar.scss';
+	@import 'react-mde/lib/styles/scss/react-mde-editor.scss';
+	//@import 'react-mde/lib/styles/scss/react-mde-preview.scss';
+	@import 'react-mde/lib/styles/scss/react-mde.scss';
+	@import 'react-mde/lib/styles/scss/react-mde-vertical-layout.scss';
+	@import 'react-mde/lib/styles/scss/react-mde-no-preview-layout.scss';
+	@import 'react-mde/lib/styles/scss/react-mde-horizontal-layout.scss';
+	@import 'react-mde/lib/styles/scss/react-mde-tabbed-layout.scss';
+
+	position: relative;
+	border: 1px solid $input-border;
+	border-radius: $input-border-radius;
+
+	.react-mde {
+		background-color: $brand-white;
+		border: none;
+	}
+
+	.mde-preview {
+		//padding: $content-padding;
+
+		display: none !important;
+	}
+
+	&-preview {
+		border-top: 1px solid $input-border;
+
+		&-title {
+			font-family: $font-family-headings;
+			font-weight: $font-weight-semibold;
+			text-transform: uppercase;
+			padding: ($content-padding / 2) $content-padding;
+			background-color: $brand-lightgrey;
+			color: $brand-white;
+			font-size: 1.2rem;
+		}
+
+		&-content {
+			padding: $content-padding;
+			background-color: darken($brand-white, 2%);
+			border-bottom-left-radius: $input-border-radius;
+			border-bottom-right-radius: $input-border-radius;
+		}
+	}
+
+	&.focused {
+		border-color: $input-border-focus;
+	}
+
+	&.error {
+		border-color: $brand-red;
+	}
+
+	&.warning {
+		border-color: $brand-orange;
+	}
+
+	&.disabled {
+		&:after {
+			content: '';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			background-color: rgba($brand-lightgrey, .5);
+		}
+	}
+}

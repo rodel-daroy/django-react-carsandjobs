@@ -1,0 +1,42 @@
+@import 'styles/_colors';
+
+.expand-icon {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	
+	.expand-icon-inner {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	
+		width: 15px;
+		height: 15px;
+	}
+	
+	.expand-icon-line {
+		position: absolute;
+		width: 15px;
+		height: 1px;
+		background-color: $brand-red;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	
+		transition: transform .5s;
+	
+		&.horizontal {
+		}
+	
+		&.vertical {
+			transform: translateX(-50%) rotate(90deg);
+		}
+	}
+	
+	&.expanded {
+		.expand-icon-line.vertical {
+			transform: translate(-50%, -50%);
+		}
+	}
+}

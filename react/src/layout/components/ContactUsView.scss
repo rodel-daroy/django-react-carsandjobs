@@ -1,0 +1,9 @@
+@import 'styles/_layout';
+
+.contact-us-view {
+	&-form {
+		padding: $content-margin;
+		width: 100%;
+		max-width: $max-text-width;
+	}
+}

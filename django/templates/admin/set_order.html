@@ -1,0 +1,75 @@
+{% extends 'admin/base_site.html' %}
+{% load static %}
+{% block title %}
+    Assets - {{ asset.name| title }} Set Order
+{% endblock %}
+
+{% block content %}
+    <div class="dashboard-item" data-module-id="13">
+        <div class="dashboard-item-header">
+
+        <span class="dashboard-item-header-buttons">
+            <a href="/jet/dashboard/module/13/" title="Change"><span class="icon-edit"></span></a>
+
+
+        </span>
+            <span class="dashboard-item-header-title">
+
+
+
+                {{ asset.name | title }} Asset Ordering
+
+        </span>
+            <div class="cf"></div>
+        </div>
+
+        <div class="dashboard-item-content">
+            <div class="padding center">
+                <ul class="inline" id="assets">
+                    {% for each_image in asset_content %}
+                        <li id="{{ each_image.id }}">
+                            <img src="{{ each_image.file.url }}" alt="{{ each_image.name }}" width="150" height="150">
+                        </li>
+                    {% endfor %}
+
+                </ul>
+            </div>
+
+        </div>
+    <br/>
+<button  class="button" title="Set the current sequence as order of current asset" id="update_order">Update Order</button>
+    </div>
+<script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="{% static 'admin/js/jquery.init.js' %}"></script>
+<script>
+        var $ = jQuery
+        $("#assets").sortable();
+        $("#update_order").click(function (evt) {
+            var childs = $("#assets").children();
+            console.log(childs);
+            var results = [];
+            for (var i = 0; i < childs.length; i++) {
+                div_id = $(childs[i]).attr("id");
+                results.push(div_id);
+            }
+            console.log(results);
+            var url = "{% url 'set-order' %}";
+            $.ajax({
+                url: url,
+                type: "POST",
+                data: JSON.stringify({'order': results}),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (response) {
+                    alert(response.message);
+                }
+            })
+
+        })
+    </script>
+
+{% endblock %}

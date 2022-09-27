@@ -1,0 +1,14 @@
+@import 'styles/_layout';
+@import 'styles/_typography';
+
+.home-view {
+	flex-grow: 1;
+	
+	width: 100%;
+
+	&-carfax-logo {
+		max-width: 135px;
+		width: 100%;
+		margin-bottom: 1.5em;
+	}
+}

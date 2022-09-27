@@ -1,0 +1,30 @@
+#root {
+	display: block;
+	height: 100%;
+}
+
+.anchor-nav-container {
+	display: flex;
+	justify-content: stretch;
+	overflow: auto;
+
+	width: 100%;
+	height: 100%;
+
+	&-nav {
+		flex-basis: 25%;
+	}
+
+	&-scrolling {
+		flex-grow: 1;
+
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+		min-height: 2000px;
+
+		> * {
+			flex-grow: 1;
+		}
+	}
+}

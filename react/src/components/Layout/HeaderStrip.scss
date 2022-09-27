@@ -1,0 +1,12 @@
+@import 'styles/_colors';
+
+.header-strip {
+	flex-shrink: 0;
+	
+	display: flex;
+	align-items: center;
+
+	background-color: darken($brand-white, 6%);
+
+	min-height: 45px;
+}

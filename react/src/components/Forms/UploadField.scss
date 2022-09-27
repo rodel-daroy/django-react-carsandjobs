@@ -1,0 +1,19 @@
+@import 'styles/_colors';
+@import './_common';
+
+.upload-field {
+	.upload-field-inner {
+		background-color: $brand-lightgrey !important;
+
+		display: flex;
+		align-items: center;
+
+		font-style: italic;
+
+		cursor: pointer;
+
+		&[aria-disabled=true] {
+			opacity: $disabled-opacity;
+		}
+	}
+}

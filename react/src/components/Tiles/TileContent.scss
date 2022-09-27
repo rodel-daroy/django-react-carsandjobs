@@ -1,0 +1,118 @@
+@import 'styles/_colors';
+@import 'styles/_typography';
+@import 'styles/_layout';
+
+.tile-content {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 100%;
+	height: 100%;
+	color: $brand-white;
+  
+	.tile-body {
+		overflow-y: hidden;
+
+		display: flex;
+		justify-content: space-between;
+		transform: scale(1);
+		font-weight: $font-weight-light;
+	}
+  
+	.tile-logo {
+		margin-bottom: 10px;
+		display: block;
+		max-width: 50%;
+		height: auto;
+	}
+
+	&.kind-1 {
+		.tile-body {
+			flex-direction: column;
+
+			.primary-button {
+				margin-left: 0;
+				margin-top: $content-margin;
+			}
+		}
+	}
+  
+	h2 {
+		@include tile-title;
+		
+		margin: 30px 0 5px;
+		padding: 0;
+	}
+
+	.tile-header-button {
+		white-space: nowrap;
+	
+		transition: opacity .25s;
+		opacity: 1;
+	
+		.radial-button {
+			color: $brand-white;
+			border-color: $brand-white;
+			margin-left: 12px;
+			margin-top: 0;
+			margin-bottom: 0;
+			position: relative;
+			top: -.2rem;
+		}
+	}
+	
+	&.hover {
+		.tile-header-button {
+			opacity: 0;
+		}
+	}
+
+	p {
+		padding: 0;
+
+		@include tile-body;
+		color: $brand-lightgrey;
+	}
+  
+	&.kind-2 {
+		.tile-header,
+		.tile-body-text {
+			max-width: calc(53% - 15px);
+		}
+
+		.tile-body.no-text {
+			.primary-button {
+				margin-left: 0;
+				margin-top: $content-margin;
+			}
+		}
+	}
+  
+	@media (max-width: $screen-xs-max) {
+		.tile-body {
+			&.no-text {
+				justify-content: flex-end;
+			}
+		}
+
+		&.kind-1 {
+			.tile-body {
+				flex-direction: row;
+			}
+		}
+
+		&.kind-2 {
+			.tile-header,
+			.tile-body-text {
+				max-width: none;
+			}
+		}
+
+		.tile-header-button {
+			display: none;
+		}
+	}
+  }
+  

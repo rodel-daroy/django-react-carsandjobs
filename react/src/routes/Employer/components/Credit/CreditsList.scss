@@ -1,0 +1,16 @@
+@import 'styles/_typography';
+@import 'styles/_colors';
+
+.credits-list {
+	&-link {
+		font-family: $font-family-body !important;
+	}
+
+	&-credits:not(:empty) {
+		background-color: $tint-green;
+	}
+
+	&-debits:not(:empty) {
+		background-color: $tint-red;
+	}
+}

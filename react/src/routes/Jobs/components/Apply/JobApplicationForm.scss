@@ -1,0 +1,12 @@
+@import 'styles/_layout';
+
+.job-application-form {
+	&-resume-note {
+		margin-top: -$content-margin;
+		margin-bottom: $content-margin;
+	}
+
+	&-section {
+		align-items: stretch !important;
+	}
+}

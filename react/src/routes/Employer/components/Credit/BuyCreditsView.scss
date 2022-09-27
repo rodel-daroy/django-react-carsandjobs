@@ -1,0 +1,21 @@
+@import 'styles/_layout';
+
+.buy-credits-view {
+	&-content {
+		margin: $content-margin;
+		padding: $content-padding;
+
+		max-width: $max-text-width;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	&-summary {
+		margin-bottom: $content-margin * 2;
+	}
+
+	&-overlay {
+		text-align: center;
+	}
+}

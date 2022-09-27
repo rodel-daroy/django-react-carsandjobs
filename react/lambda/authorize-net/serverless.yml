@@ -1,0 +1,28 @@
+service: authorize-net
+
+custom:
+  stage: ${opt:stage, self:provider.stage}
+  environment:
+    prod:
+      API_LOGIN_ID: 6zNt7A49x
+      TRANSACTION_KEY: 9X4jL3nzg296fV63
+      API_ENDPOINT: https://api.authorize.net/xml/v1/request.api
+    dev:
+      API_LOGIN_ID: 764tPmQE3nm
+      TRANSACTION_KEY: 4fy7QJ3y5NnQ3x3E
+      API_ENDPOINT: https://apitest.authorize.net/xml/v1/request.api
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: us-east-2
+  environment:
+    API_LOGIN_ID: ${self:custom.environment.${self:custom.stage}.API_LOGIN_ID}
+    TRANSACTION_KEY: ${self:custom.environment.${self:custom.stage}.TRANSACTION_KEY}
+    API_ENDPOINT: ${self:custom.environment.${self:custom.stage}.API_ENDPOINT}
+
+functions:
+  getHostedPaymentPage:
+    handler: handler.getHostedPaymentPage
+    events:
+      - http: POST getHostedPaymentPage

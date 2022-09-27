@@ -1,0 +1,151 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+@import './_index';
+
+.tile {
+	width: 100%;
+	height: 100%;
+	transition: transform .2s, box-shadow .2s, background-size .2s;
+	overflow: hidden;
+	position: absolute;
+
+	.tile-outer {
+		width: 100%;
+		height: 100%;
+		padding: {
+			top: $content-padding;
+			right: $content-margin * 1.5;
+			bottom: $content-margin * 1.5;
+			left: $content-margin * 2;
+		}
+		overflow: hidden;
+		position: relative;
+
+		&:after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: -1px;
+			right: -1px;
+			left: -1px;
+			bottom: -1px;
+			background: linear-gradient(180deg, rgba(25, 26, 36, 0) 0%, rgba(25, 26, 36, 0.85) 100%);
+			transform-origin: center bottom;
+			transform: scaleY(.65);
+
+			transition: transform .2s, background .2s;
+		}
+	}
+
+	.tile-color-background,
+	.tile-mask-background {
+		background-color: rgba(51, 59, 72, 1);
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 0;
+	}
+
+	.tile-mask-background {
+		bottom: auto;
+		top: 0;
+		z-index: 2;
+		height: 100%;
+	}
+
+	.tile-background {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 110%;
+		height: 110%;
+		transform: translate(-50%, -50%);
+
+		transition: width .75s, height .75s;
+
+		.tile-background-image {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+	}
+
+	&.active:hover {
+		z-index: 5;
+
+		.tile-outer {
+			&:after {
+				background: linear-gradient(180deg, rgba(25, 26, 36, 0) 0%, rgba(25, 26, 36, 1) 100%);
+				transform: scaleY(1);
+			}
+		}
+
+		.tile-background {
+			width: 115%;
+			height: 115%;
+
+			filter: blur(1.5px);
+		}
+
+		.tile-body {
+			overflow-y: visible;
+		}
+	}
+
+	a.tile-link {
+		font-weight: normal;
+		font-size: 16px;
+		color: #7c828a;
+		line-height: 20px;
+		margin: 0;
+		padding: 0;
+		color: #d80000;
+		border-bottom: 1px solid #d80000;
+		padding-bottom: 5px;
+		text-decoration: none;
+		margin-top: 15px;
+		text-transform: uppercase;
+		display: inline-block;
+
+		&:hover {
+			border-bottom-color: transparent;
+		}
+	}
+
+	.tile-inner {
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+
+	@media (max-width: $screen-xs-max) {
+		.tile-outer {
+			padding-left: $content-margin + $content-padding;
+			padding-right: $content-margin;
+
+			&:after {
+				background: linear-gradient(180deg, rgba(25, 26, 36, 0) 0%, rgba(25, 26, 36, 1) 100%);
+				transform: scaleY(1);
+			}
+		}
+
+		.tile-mask-background {
+			display: none;
+		}
+
+		&.active:hover {
+			.tile-background {
+				width: 110%;
+				height: 110%;
+
+				filter: none;
+			}
+		}
+	}
+}

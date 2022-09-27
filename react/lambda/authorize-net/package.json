@@ -1,0 +1,12 @@
+{
+  "name": "authorize-net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {},
+  "author": "Ben Cotton",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.4.1"
+  }
+}

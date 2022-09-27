@@ -1,0 +1,40 @@
+@import 'styles/_layout';
+
+.video-frame {
+	&-modal-content {
+		padding: 0;
+		visibility: hidden;
+
+		&.resized {
+			visibility: visible;
+		}
+	}
+
+	&-content {
+		position: relative;
+		line-height: 0;
+		border-radius: $base-border-radius;
+		overflow: hidden;
+	}
+
+	&-inner {
+		position: relative;
+		height: 0;
+	}
+
+	&-video {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		border: none;
+	}
+
+	&-close {
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 1;
+	}
+}

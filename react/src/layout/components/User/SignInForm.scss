@@ -1,0 +1,10 @@
+.signin-form {
+	position: relative;
+	width: 100%;
+	
+	&-forget, &-resend {
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+	}
+}

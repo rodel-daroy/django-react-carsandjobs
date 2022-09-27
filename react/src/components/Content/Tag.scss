@@ -1,0 +1,29 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+@import 'styles/_typography';
+
+.tag {
+	display: inline-block;
+	position: relative;
+    top: -.1rem;
+	padding: ($content-padding / 4) ($content-padding / 3);
+	margin: 0 ($content-margin / 3);
+
+	background-color: $brand-lightgrey;
+
+	font-size: .9rem;
+	font-weight: $font-weight-bold;
+	text-transform: uppercase;
+
+	border-radius: $base-border-radius;
+
+	user-select: none;
+
+	&:first-child {
+		margin-left: 0;
+	}
+
+	&:last-child {
+		margin-right: 0;
+	}
+}

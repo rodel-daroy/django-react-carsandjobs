@@ -1,0 +1,71 @@
+@import 'styles/_typography';
+@import 'styles/_colors';
+@import 'styles/_layout';
+
+.job-postings-table {
+	&-departments {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	&-responses, &-title {
+		font-family: inherit !important;
+		font-weight: $font-weight-bold !important;
+	}
+
+	&-commands {
+		> ul > li {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+	}
+
+	&-responses, &-edit, &-title {
+		margin-top: -$content-padding;
+		margin-bottom: -$content-padding;
+	}
+
+	&-row {
+		&.open {
+			background-color: $tint-green;
+		}
+
+		&.closed {
+			background-color: $tint-red;
+		}
+
+		> td {
+			.checkbox-field {
+				display: inline-block;
+				position: relative;
+				top: 3px;
+			}
+		}
+	}
+
+	&-title-cell {
+		width: 25%;
+		word-break: break-all;
+
+		> .icon-lock {
+			margin-right: $content-margin / 4;
+			color: $brand-darkgrey;
+		}
+	}
+
+	&-republish {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+
+	&-tbd {
+		color: rgba($brand-darkgrey, .5);
+	}
+
+	&-closing-date {
+		&.ended {
+			text-decoration: line-through;
+		}
+	}
+}

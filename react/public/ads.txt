@@ -1,0 +1,12 @@
+google.com, ca-pub-8040415138617330, DIRECT, f08c47fec0942fa0
+vhbx.co, 8303478412733474, DIRECT, 47e78270c9860438
+advertising.com, 21405, RESELLER
+contextweb.com, 561349, RESELLER
+google.com, pub-1869172611345701, RESELLER, f08c47fec0942fa0
+lkqd.net, 398, RESELLER, 59c49fa9598a0117
+spotxchange.com, 199019, RESELLER, 7842df1d2fe2db34
+spotx.tv, 199019, RESELLER, 7842df1d2fe2db34
+smartadserver.com, 3209, RESELLER
+rubiconproject.com, 19732, RESELLER, 0bfd66d529a55807
+openx.com, 540367819, RESELLER, 6a698e2ec38604c6
+tremorhub.com, vbce7-29tba, RESELLER, 1a4e959a1b50034a

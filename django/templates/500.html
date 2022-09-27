@@ -1,0 +1,33 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="error-template">
+                <h1>
+                    Oops!</h1>
+
+                <h2>
+                    500 Not Found</h2>
+                <div class="error-details">
+                    Sorry, an error has occured, Requested page not found!
+                </div>
+                <div class="error-actions">
+                    {{ exception_value }}
+                    {{ request.path_info }}
+                    {{ request.error_500_message }}
+                </div>
+                <h3>
+                Error :
+                </h3>
+                {% if messages %}
+                  <ul class="messages">
+                    {% for message in messages %}
+                      <li class="{{ message.tags }}">{{ message }}</li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+
+            </div>
+        </div>
+    </div>
+</div>

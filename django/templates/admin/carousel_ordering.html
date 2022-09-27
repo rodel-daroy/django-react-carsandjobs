@@ -1,0 +1,95 @@
+{% extends 'admin/base_site.html' %}
+{% load static %}
+{% block extrastyle %}
+    <style>
+        #select2-id_tile_CTA_article-container {
+            width: 250px;
+        }
+    </style>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="{% static 'admin/js/jquery.init.js' %}"></script>
+
+{% endblock %}
+{% block title %}
+    Order Assets
+{% endblock %}
+
+{% block content %}
+    <div class="results flex" style="margin-bottom: 103px;">
+        <table id="result_list" style="width: 100%">
+            <thead>
+            <tr>
+                <th scope="col" class="sortable column-title">
+
+
+
+                    <div class="text"><a href="?o=1">Asset Id</a></div>
+                    <div class="clear"></div>
+                </th>
+                <th scope="col" class="sortable column-category">
+
+
+
+                    <div class="text"><a href="?o=2">Asset Name</a></div>
+                    <div class="clear"></div>
+                </th>
+                <th scope="col" class="sortable column-department">
+
+
+
+                    <div class="text"><a href="?o=3">Asset Type</a></div>
+                    <div class="clear"></div>
+                </th>
+                <th scope="col" class="sortable column-department">
+                    <div class="text"><a href="?o=3">Update Order</a></div>
+                    <div class="clear"></div>
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+
+            {% for asset in assets %}
+                <tr class="row1">
+                    <th class="field-title">
+                        <a href="/admin/site_content/asset/{{ asset.id }}/change/">{{ asset.id }}</a>
+                    </th>
+                    <td class="field-category nowrap">{{ asset.name }}</td>
+                    <td class="field-department nowrap">{{ asset.asset_type }}</td>
+                    <td class="field-department nowrap">
+                        <a href="/admin/update-order/{{ asset.id }}/" class="btn btn-default">Update</a>
+                    </td>
+                </tr>
+            {% endfor %}
+
+
+
+            </tbody>
+        </table>
+    </div>
+    <script>
+        $("#assets").sortable();
+        $("#update_order").click(function (evt) {
+            var childs =  $("#assets").children();
+            var results = [];
+            for(i=0; i<childs.length; i++){
+                div_id = $(childs[i]).attr("id");
+                results.push({i: div_id});
+            }
+            console.log(results);
+            var url = "{% url 'set-order' %}";
+            $.ajax({
+                url: url,
+                type: "POST",
+                data: JSON.stringify({'order': results}),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (response) {
+                    alert(response.message);
+                }
+            })
+
+        })
+    </script>
+{% endblock %}

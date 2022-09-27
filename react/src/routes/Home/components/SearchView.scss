@@ -1,0 +1,8 @@
+@import 'styles/_layout';
+
+.search-view {
+	&-my-jobs {
+		padding-top: $content-padding;
+		margin-top: -$relative-v-padding;
+	}
+}

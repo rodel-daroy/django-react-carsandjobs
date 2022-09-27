@@ -1,0 +1,55 @@
+@import 'styles/_colors';
+@import 'styles/_layout';
+
+.menu-icon {
+	$menu-icon-size: /* 18px */ $content-margin;
+	$menu-line-spacing: /* 7px */9px;
+	$menu-line-width: /* 2px */3px;
+	
+	width: $menu-icon-size;
+	height: $menu-icon-size;
+	position: relative;
+	
+	.menu-icon-inner {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+	
+	.menu-icon-line {
+		position: absolute;
+		width: $menu-icon-size;
+		height: $menu-line-width;
+		background-color: $brand-black;
+		left: 50%;
+		top: 50%;
+	
+		transition: transform .4s;
+	
+		&.line-1 {
+			transform: translate(-50%, -$menu-line-spacing);
+		}
+	
+		&.line-2 {
+			transform: translate(-50%, 0);
+		}
+	
+		&.line-3 {
+			transform: translate(-50%, $menu-line-spacing);
+		}
+	}
+	
+	&.expanded {
+		.menu-icon-line {
+			&.line-1,
+			&.line-2 {
+				transform: translate(-50%, 0) rotate(-45deg);
+			}
+		
+			&.line-3 {
+				transform: translate(-50%, 0) rotate(45deg);
+			}
+		}
+	}
+}

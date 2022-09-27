@@ -1,0 +1,167 @@
+{
+  "list_departments": [
+    {
+      "id": "11",
+      "dept": "Accounting",
+      "status": "1",
+      "fr": "Comptabilité"
+    },
+    {
+      "id": "12",
+      "dept": "Administration",
+      "status": "1",
+      "fr": "Administration"
+    },
+    {
+      "id": "13",
+      "dept": "Body Shop",
+      "status": "1",
+      "fr": "Atelier de débosselage"
+    },
+    {
+      "id": "14",
+      "dept": "Body Shop - Repair & Maintenance",
+      "status": "1",
+      "fr": "Atelier de débosselage %u2013 Réparation et entretien"
+    },
+    {
+      "id": "15",
+      "dept": "Body Shop / Collision",
+      "status": "1",
+      "fr": "Atelier de débosselage %u2013 Collisions"
+    },
+    {
+      "id": "16",
+      "dept": "Co-op Student",
+      "status": "1",
+      "fr": "Étudiant stagiaire"
+    },
+    {
+      "id": "17",
+      "dept": "Customer Service",
+      "status": "1",
+      "fr": "Service à la clientèle"
+    },
+    {
+      "id": "18",
+      "dept": "Dealership",
+      "status": "1",
+      "fr": "Concession"
+    },
+    {
+      "id": "19",
+      "dept": "F and I - Business Office",
+      "status": "1",
+      "fr": "Services financiers et assurance %u2013 Bureau commercial"
+    },
+    {
+      "id": "20",
+      "dept": "Fleet",
+      "status": "1",
+      "fr": "Parc"
+    },
+    {
+      "id": "21",
+      "dept": "General",
+      "status": "1",
+      "fr": "Généralités"
+    },
+    {
+      "id": "22",
+      "dept": "General Management",
+      "status": "1",
+      "fr": "Direction générale"
+    },
+    {
+      "id": "23",
+      "dept": "Leasing",
+      "status": "1",
+      "fr": "Location-bail"
+    },
+    {
+      "id": "24",
+      "dept": "Management",
+      "status": "1",
+      "fr": "Gestion"
+    },
+    {
+      "id": "25",
+      "dept": "Motorcycle",
+      "status": "1",
+      "fr": "Motocyclettes"
+    },
+    {
+      "id": "27",
+      "dept": "Parts Department",
+      "status": "1",
+      "fr": "Service des pièces"
+    },
+    {
+      "id": "28",
+      "dept": "Sales",
+      "status": "1",
+      "fr": "Service des ventes"
+    },
+    {
+      "id": "29",
+      "dept": "Service Department",
+      "status": "1",
+      "fr": "Service après-vente"
+    },
+    {
+      "id": "30",
+      "dept": "Leasing / Sales Commercial Trucks",
+      "status": "1",
+      "fr": "Location-bail et ventes de camions utilitaires"
+    },
+    {
+      "id": "31",
+      "dept": "Marketing (do not use)",
+      "status": "0",
+      "fr": ""
+    },
+    {
+      "id": "32",
+      "dept": "Marketing",
+      "status": "1",
+      "fr": "Marketing"
+    },
+    {
+      "id": "33",
+      "dept": "Human Resources",
+      "status": "1",
+      "fr": "Ressources humaines"
+    },
+    {
+      "id": "34",
+      "dept": "IT Administration",
+      "status": "1",
+      "fr": "Administration des TI"
+    },
+    {
+      "id": "35",
+      "dept": "Wholesale",
+      "status": "1",
+      "fr": "Vente en gros"
+    },
+    {
+      "id": "36",
+      "dept": "Sales / Wholesale ",
+      "status": "1",
+      "fr": "Vente / Vente en gros "
+    },
+    {
+      "id": "38",
+      "dept": "Business Development Centre",
+      "status": "1",
+      "fr": "Centre de développement commercial"
+    },
+    {
+      "id": "39",
+      "dept": "Management and Sales",
+      "status": "1",
+      "fr": null
+    }
+
+  ]
+}

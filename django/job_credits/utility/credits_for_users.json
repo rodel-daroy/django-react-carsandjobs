@@ -1,0 +1,7184 @@
+[
+	{
+		"dealerid" : 5,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 7,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 8,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 10,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 12,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 13,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 14,
+		"sum(credit_plus)" : 27,
+		"sum(credit_minus)" : 27,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 18,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 20,
+		"sum(credit_plus)" : 26,
+		"sum(credit_minus)" : 25,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 22,
+		"sum(credit_plus)" : 26,
+		"sum(credit_minus)" : 26,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 25,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 26,
+		"sum(credit_plus)" : 83,
+		"sum(credit_minus)" : 83,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 27,
+		"sum(credit_plus)" : 27,
+		"sum(credit_minus)" : 26,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 28,
+		"sum(credit_plus)" : 27,
+		"sum(credit_minus)" : 27,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 30,
+		"sum(credit_plus)" : 33,
+		"sum(credit_minus)" : 33,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 31,
+		"sum(credit_plus)" : 34,
+		"sum(credit_minus)" : 34,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 32,
+		"sum(credit_plus)" : 47,
+		"sum(credit_minus)" : 44,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 33,
+		"sum(credit_plus)" : 18,
+		"sum(credit_minus)" : 18,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 34,
+		"sum(credit_plus)" : 23,
+		"sum(credit_minus)" : 23,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 36,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 37,
+		"sum(credit_plus)" : 52,
+		"sum(credit_minus)" : 49,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 39,
+		"sum(credit_plus)" : 91,
+		"sum(credit_minus)" : 91,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 40,
+		"sum(credit_plus)" : 14,
+		"sum(credit_minus)" : 14,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 42,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 44,
+		"sum(credit_plus)" : 66,
+		"sum(credit_minus)" : 66,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 46,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 47,
+		"sum(credit_plus)" : 103,
+		"sum(credit_minus)" : 103,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 48,
+		"sum(credit_plus)" : 69,
+		"sum(credit_minus)" : 69,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 49,
+		"sum(credit_plus)" : 26,
+		"sum(credit_minus)" : 26,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 52,
+		"sum(credit_plus)" : 17,
+		"sum(credit_minus)" : 17,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 53,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 54,
+		"sum(credit_plus)" : 69,
+		"sum(credit_minus)" : 69,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 55,
+		"sum(credit_plus)" : 35,
+		"sum(credit_minus)" : 35,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 56,
+		"sum(credit_plus)" : 28,
+		"sum(credit_minus)" : 28,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 57,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 58,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 59,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 60,
+		"sum(credit_plus)" : 12,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 64,
+		"sum(credit_plus)" : 23,
+		"sum(credit_minus)" : 23,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 65,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 66,
+		"sum(credit_plus)" : 40,
+		"sum(credit_minus)" : 38,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 67,
+		"sum(credit_plus)" : 16,
+		"sum(credit_minus)" : 16,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 68,
+		"sum(credit_plus)" : 12,
+		"sum(credit_minus)" : 12,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 69,
+		"sum(credit_plus)" : 21,
+		"sum(credit_minus)" : 17,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 70,
+		"sum(credit_plus)" : 52,
+		"sum(credit_minus)" : 51,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 71,
+		"sum(credit_plus)" : 180,
+		"sum(credit_minus)" : 180,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 74,
+		"sum(credit_plus)" : 67,
+		"sum(credit_minus)" : 64,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 75,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 77,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 81,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 83,
+		"sum(credit_plus)" : 21,
+		"sum(credit_minus)" : 16,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 84,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 87,
+		"sum(credit_plus)" : 29,
+		"sum(credit_minus)" : 29,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 90,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 92,
+		"sum(credit_plus)" : 25,
+		"sum(credit_minus)" : 25,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 93,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 10,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 94,
+		"sum(credit_plus)" : 19,
+		"sum(credit_minus)" : 19,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 95,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 96,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 97,
+		"sum(credit_plus)" : 17,
+		"sum(credit_minus)" : 15,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 99,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 100,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 101,
+		"sum(credit_plus)" : 17,
+		"sum(credit_minus)" : 16,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 102,
+		"sum(credit_plus)" : 54,
+		"sum(credit_minus)" : 50,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 103,
+		"sum(credit_plus)" : 17,
+		"sum(credit_minus)" : 17,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 105,
+		"sum(credit_plus)" : 31,
+		"sum(credit_minus)" : 30,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 107,
+		"sum(credit_plus)" : 16,
+		"sum(credit_minus)" : 16,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 108,
+		"sum(credit_plus)" : 50,
+		"sum(credit_minus)" : 46,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 109,
+		"sum(credit_plus)" : 86,
+		"sum(credit_minus)" : 86,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 110,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 112,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 113,
+		"sum(credit_plus)" : 12,
+		"sum(credit_minus)" : 12,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 115,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 10,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 116,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 118,
+		"sum(credit_plus)" : 80,
+		"sum(credit_minus)" : 80,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 119,
+		"sum(credit_plus)" : 18,
+		"sum(credit_minus)" : 18,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 121,
+		"sum(credit_plus)" : 15,
+		"sum(credit_minus)" : 14,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 122,
+		"sum(credit_plus)" : 18,
+		"sum(credit_minus)" : 18,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 123,
+		"sum(credit_plus)" : 26,
+		"sum(credit_minus)" : 25,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 125,
+		"sum(credit_plus)" : 17,
+		"sum(credit_minus)" : 16,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 126,
+		"sum(credit_plus)" : 15,
+		"sum(credit_minus)" : 15,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 127,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 129,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 130,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 131,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 133,
+		"sum(credit_plus)" : 32,
+		"sum(credit_minus)" : 32,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 135,
+		"sum(credit_plus)" : 32,
+		"sum(credit_minus)" : 27,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 136,
+		"sum(credit_plus)" : 64,
+		"sum(credit_minus)" : 61,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 137,
+		"sum(credit_plus)" : 44,
+		"sum(credit_minus)" : 44,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 138,
+		"sum(credit_plus)" : 30,
+		"sum(credit_minus)" : 30,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 139,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 142,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 146,
+		"sum(credit_plus)" : 71,
+		"sum(credit_minus)" : 70,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 147,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 148,
+		"sum(credit_plus)" : 25,
+		"sum(credit_minus)" : 25,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 149,
+		"sum(credit_plus)" : 27,
+		"sum(credit_minus)" : 24,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 151,
+		"sum(credit_plus)" : 110,
+		"sum(credit_minus)" : 110,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 152,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 153,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 154,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 157,
+		"sum(credit_plus)" : 27,
+		"sum(credit_minus)" : 27,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 158,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 159,
+		"sum(credit_plus)" : 61,
+		"sum(credit_minus)" : 57,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 160,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 162,
+		"sum(credit_plus)" : 12,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 163,
+		"sum(credit_plus)" : 29,
+		"sum(credit_minus)" : 29,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 166,
+		"sum(credit_plus)" : 13,
+		"sum(credit_minus)" : 12,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 167,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 168,
+		"sum(credit_plus)" : 13,
+		"sum(credit_minus)" : 12,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 170,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 171,
+		"sum(credit_plus)" : 34,
+		"sum(credit_minus)" : 34,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 172,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 174,
+		"sum(credit_plus)" : 16,
+		"sum(credit_minus)" : 15,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 175,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 176,
+		"sum(credit_plus)" : 41,
+		"sum(credit_minus)" : 41,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 177,
+		"sum(credit_plus)" : 8,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 179,
+		"sum(credit_plus)" : 8,
+		"sum(credit_minus)" : 8,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 182,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 186,
+		"sum(credit_plus)" : 16,
+		"sum(credit_minus)" : 13,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 187,
+		"sum(credit_plus)" : 30,
+		"sum(credit_minus)" : 29,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 190,
+		"sum(credit_plus)" : 49,
+		"sum(credit_minus)" : 42,
+		"sum(credit_plus - credit_minus)" : 7
+	},
+	{
+		"dealerid" : 192,
+		"sum(credit_plus)" : 60,
+		"sum(credit_minus)" : 60,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 193,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 194,
+		"sum(credit_plus)" : 14,
+		"sum(credit_minus)" : 14,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 195,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 199,
+		"sum(credit_plus)" : 26,
+		"sum(credit_minus)" : 25,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 200,
+		"sum(credit_plus)" : 15,
+		"sum(credit_minus)" : 10,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 201,
+		"sum(credit_plus)" : 14,
+		"sum(credit_minus)" : 14,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 202,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 205,
+		"sum(credit_plus)" : 22,
+		"sum(credit_minus)" : 18,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 206,
+		"sum(credit_plus)" : 39,
+		"sum(credit_minus)" : 38,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 207,
+		"sum(credit_plus)" : 16,
+		"sum(credit_minus)" : 13,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 208,
+		"sum(credit_plus)" : 17,
+		"sum(credit_minus)" : 15,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 209,
+		"sum(credit_plus)" : 17,
+		"sum(credit_minus)" : 17,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 210,
+		"sum(credit_plus)" : 11,
+		"sum(credit_minus)" : 11,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 211,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 212,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 213,
+		"sum(credit_plus)" : 13,
+		"sum(credit_minus)" : 13,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 214,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 215,
+		"sum(credit_plus)" : 24,
+		"sum(credit_minus)" : 17,
+		"sum(credit_plus - credit_minus)" : 7
+	},
+	{
+		"dealerid" : 218,
+		"sum(credit_plus)" : 19,
+		"sum(credit_minus)" : 17,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 219,
+		"sum(credit_plus)" : 24,
+		"sum(credit_minus)" : 24,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 220,
+		"sum(credit_plus)" : 58,
+		"sum(credit_minus)" : 54,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 222,
+		"sum(credit_plus)" : 12,
+		"sum(credit_minus)" : 12,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 224,
+		"sum(credit_plus)" : 24,
+		"sum(credit_minus)" : 19,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 225,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 226,
+		"sum(credit_plus)" : 20,
+		"sum(credit_minus)" : 18,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 227,
+		"sum(credit_plus)" : 23,
+		"sum(credit_minus)" : 22,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 228,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 229,
+		"sum(credit_plus)" : 37,
+		"sum(credit_minus)" : 37,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 231,
+		"sum(credit_plus)" : 19,
+		"sum(credit_minus)" : 19,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 232,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 234,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 236,
+		"sum(credit_plus)" : 13,
+		"sum(credit_minus)" : 13,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 237,
+		"sum(credit_plus)" : 33,
+		"sum(credit_minus)" : 30,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 239,
+		"sum(credit_plus)" : 23,
+		"sum(credit_minus)" : 23,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 241,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 10,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 242,
+		"sum(credit_plus)" : 20,
+		"sum(credit_minus)" : 20,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 243,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 244,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 246,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 248,
+		"sum(credit_plus)" : 31,
+		"sum(credit_minus)" : 28,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 249,
+		"sum(credit_plus)" : 16,
+		"sum(credit_minus)" : 14,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 250,
+		"sum(credit_plus)" : 80,
+		"sum(credit_minus)" : 80,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 251,
+		"sum(credit_plus)" : 51,
+		"sum(credit_minus)" : 43,
+		"sum(credit_plus - credit_minus)" : 8
+	},
+	{
+		"dealerid" : 252,
+		"sum(credit_plus)" : 20,
+		"sum(credit_minus)" : 20,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 254,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 255,
+		"sum(credit_plus)" : 72,
+		"sum(credit_minus)" : 72,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 257,
+		"sum(credit_plus)" : 14,
+		"sum(credit_minus)" : 14,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 258,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 10,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 259,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 262,
+		"sum(credit_plus)" : 13,
+		"sum(credit_minus)" : 13,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 263,
+		"sum(credit_plus)" : 8,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 265,
+		"sum(credit_plus)" : 36,
+		"sum(credit_minus)" : 32,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 268,
+		"sum(credit_plus)" : 39,
+		"sum(credit_minus)" : 37,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 269,
+		"sum(credit_plus)" : 100,
+		"sum(credit_minus)" : 97,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 271,
+		"sum(credit_plus)" : 105,
+		"sum(credit_minus)" : 105,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 273,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 275,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 278,
+		"sum(credit_plus)" : 13,
+		"sum(credit_minus)" : 13,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 280,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 281,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 284,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 286,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 288,
+		"sum(credit_plus)" : 13,
+		"sum(credit_minus)" : 13,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 294,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 295,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 296,
+		"sum(credit_plus)" : 15,
+		"sum(credit_minus)" : 15,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 297,
+		"sum(credit_plus)" : 20,
+		"sum(credit_minus)" : 19,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 298,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 301,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 302,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 303,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 304,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 305,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 309,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 313,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 317,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 325,
+		"sum(credit_plus)" : 24,
+		"sum(credit_minus)" : 24,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 337,
+		"sum(credit_plus)" : 94,
+		"sum(credit_minus)" : 93,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 338,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 339,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 343,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 349,
+		"sum(credit_plus)" : 13,
+		"sum(credit_minus)" : 11,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 352,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 353,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 355,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 360,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 361,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 362,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 363,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 365,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 8,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 366,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 368,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 369,
+		"sum(credit_plus)" : 33,
+		"sum(credit_minus)" : 33,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 370,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 372,
+		"sum(credit_plus)" : 16,
+		"sum(credit_minus)" : 16,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 374,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 375,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 377,
+		"sum(credit_plus)" : 14,
+		"sum(credit_minus)" : 10,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 378,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 379,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 381,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 384,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 385,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 387,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 388,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 392,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 393,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 394,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 395,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 396,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 398,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 401,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 403,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 407,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 411,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 412,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 416,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 422,
+		"sum(credit_plus)" : 13,
+		"sum(credit_minus)" : 12,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 428,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 433,
+		"sum(credit_plus)" : 13,
+		"sum(credit_minus)" : 13,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 434,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 435,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 436,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 437,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 438,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 439,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 440,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 442,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 443,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 444,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 446,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 450,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 451,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 456,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 457,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 458,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 461,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 464,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 466,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 467,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 469,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 470,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 471,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 473,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 474,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 478,
+		"sum(credit_plus)" : 26,
+		"sum(credit_minus)" : 26,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 479,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 484,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 486,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 487,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 488,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 489,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 491,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 505,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 506,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 508,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 509,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 514,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 515,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 518,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 526,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 528,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 530,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 539,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 540,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 541,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 542,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 548,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 553,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 554,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 557,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 561,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 565,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 567,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 568,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 573,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 575,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 578,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 579,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 583,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 590,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 591,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 593,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 594,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 595,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 597,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 601,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 602,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 610,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 613,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 616,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 617,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 618,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 620,
+		"sum(credit_plus)" : 11,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 623,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 624,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 626,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 628,
+		"sum(credit_plus)" : 39,
+		"sum(credit_minus)" : 36,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 630,
+		"sum(credit_plus)" : 66,
+		"sum(credit_minus)" : 63,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 631,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 635,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 638,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 639,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 640,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 642,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 643,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 644,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 645,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 647,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 651,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 652,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 654,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 657,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 658,
+		"sum(credit_plus)" : 11,
+		"sum(credit_minus)" : 10,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 661,
+		"sum(credit_plus)" : 17,
+		"sum(credit_minus)" : 17,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 662,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 663,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 664,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 665,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 666,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 667,
+		"sum(credit_plus)" : 11,
+		"sum(credit_minus)" : 10,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 668,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 669,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 672,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 674,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 8,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 677,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 684,
+		"sum(credit_plus)" : 58,
+		"sum(credit_minus)" : 58,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 685,
+		"sum(credit_plus)" : 25,
+		"sum(credit_minus)" : 25,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 686,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 690,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 692,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 693,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 695,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 697,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 698,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 8,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 699,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 705,
+		"sum(credit_plus)" : 19,
+		"sum(credit_minus)" : 19,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 706,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 707,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 708,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 709,
+		"sum(credit_plus)" : 21,
+		"sum(credit_minus)" : 21,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 712,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 713,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 714,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 720,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 721,
+		"sum(credit_plus)" : 18,
+		"sum(credit_minus)" : 18,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 725,
+		"sum(credit_plus)" : 17,
+		"sum(credit_minus)" : 15,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 731,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 743,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 745,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 748,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 749,
+		"sum(credit_plus)" : 16,
+		"sum(credit_minus)" : 16,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 750,
+		"sum(credit_plus)" : 31,
+		"sum(credit_minus)" : 31,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 751,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 758,
+		"sum(credit_plus)" : 17,
+		"sum(credit_minus)" : 17,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 762,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 763,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 764,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 767,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 770,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 773,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 774,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 775,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 776,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 777,
+		"sum(credit_plus)" : 11,
+		"sum(credit_minus)" : 10,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 778,
+		"sum(credit_plus)" : 12,
+		"sum(credit_minus)" : 12,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 779,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 780,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 781,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 782,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 783,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 784,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 786,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 787,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 788,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 789,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 791,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 792,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 793,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 794,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 795,
+		"sum(credit_plus)" : 17,
+		"sum(credit_minus)" : 12,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 796,
+		"sum(credit_plus)" : 20,
+		"sum(credit_minus)" : 19,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 797,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 799,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 801,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 802,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 803,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 804,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 805,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 814,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 815,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 820,
+		"sum(credit_plus)" : 11,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 822,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 823,
+		"sum(credit_plus)" : 13,
+		"sum(credit_minus)" : 11,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 824,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 825,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 826,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 830,
+		"sum(credit_plus)" : 18,
+		"sum(credit_minus)" : 14,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 831,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 833,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 836,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 837,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 838,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 842,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 845,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 847,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 848,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 849,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 854,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 855,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 861,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 864,
+		"sum(credit_plus)" : 107,
+		"sum(credit_minus)" : 107,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 865,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 872,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 874,
+		"sum(credit_plus)" : 26,
+		"sum(credit_minus)" : 26,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 875,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 876,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 879,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 883,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 886,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 887,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 888,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 892,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 893,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 894,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 895,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 896,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 897,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 899,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 901,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 902,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 903,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 910,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 911,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 915,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 916,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 917,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 918,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 919,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 925,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 10,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 931,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 937,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 939,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 941,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 942,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 943,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 945,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 948,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 949,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 952,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 956,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 958,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 959,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 960,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 961,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 967,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 970,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 971,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 974,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 975,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 978,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 979,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 981,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 985,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 986,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 987,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 989,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 990,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 991,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 993,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 997,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 999,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1000,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1003,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1004,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1007,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1008,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1010,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 10,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1012,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1013,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1014,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1016,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1019,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1020,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1021,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1022,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1024,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1025,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1028,
+		"sum(credit_plus)" : 21,
+		"sum(credit_minus)" : 21,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1030,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1033,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1035,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1037,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1038,
+		"sum(credit_plus)" : 31,
+		"sum(credit_minus)" : 31,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1041,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1045,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1046,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1047,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1049,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1050,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1057,
+		"sum(credit_plus)" : 19,
+		"sum(credit_minus)" : 19,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1058,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1067,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1068,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1070,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1073,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1075,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1078,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1079,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1080,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1081,
+		"sum(credit_plus)" : 11,
+		"sum(credit_minus)" : 8,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 1082,
+		"sum(credit_plus)" : 38,
+		"sum(credit_minus)" : 38,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1085,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1094,
+		"sum(credit_plus)" : 50,
+		"sum(credit_minus)" : 50,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1099,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1100,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1101,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1105,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1111,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1114,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1115,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1116,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1118,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1119,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1120,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1124,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1128,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1130,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1134,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1138,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1142,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1143,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1145,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1146,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1154,
+		"sum(credit_plus)" : 16,
+		"sum(credit_minus)" : 15,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1155,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1159,
+		"sum(credit_plus)" : 11,
+		"sum(credit_minus)" : 11,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1163,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1164,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1165,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1166,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1167,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1168,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1169,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1176,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1178,
+		"sum(credit_plus)" : 27,
+		"sum(credit_minus)" : 26,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1180,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1182,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1185,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 1187,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1191,
+		"sum(credit_plus)" : 17,
+		"sum(credit_minus)" : 17,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1206,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1207,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1209,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1211,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1212,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1214,
+		"sum(credit_plus)" : 13,
+		"sum(credit_minus)" : 13,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1219,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1220,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1223,
+		"sum(credit_plus)" : 23,
+		"sum(credit_minus)" : 22,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1224,
+		"sum(credit_plus)" : 11,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 1226,
+		"sum(credit_plus)" : 107,
+		"sum(credit_minus)" : 104,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 1230,
+		"sum(credit_plus)" : 27,
+		"sum(credit_minus)" : 27,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1234,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 1240,
+		"sum(credit_plus)" : 32,
+		"sum(credit_minus)" : 31,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1241,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1242,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1243,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1245,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1246,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1247,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1248,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1249,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1250,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1252,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1255,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1256,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1257,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1258,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1259,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1261,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1262,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1275,
+		"sum(credit_plus)" : 11,
+		"sum(credit_minus)" : 11,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1284,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1295,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1299,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 1300,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1303,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1310,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1311,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1313,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1314,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1315,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1317,
+		"sum(credit_plus)" : 206,
+		"sum(credit_minus)" : 205,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1319,
+		"sum(credit_plus)" : 48,
+		"sum(credit_minus)" : 48,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1321,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1323,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1324,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1326,
+		"sum(credit_plus)" : 23,
+		"sum(credit_minus)" : 22,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1330,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1333,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1339,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1341,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1343,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1348,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1350,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1352,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1353,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1356,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1360,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1361,
+		"sum(credit_plus)" : 12,
+		"sum(credit_minus)" : 11,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1362,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1363,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1364,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1366,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1373,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1378,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1382,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1384,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1386,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1393,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1396,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1397,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1398,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1406,
+		"sum(credit_plus)" : 29,
+		"sum(credit_minus)" : 29,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1409,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1411,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1418,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1419,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1427,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1429,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1444,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1447,
+		"sum(credit_plus)" : 46,
+		"sum(credit_minus)" : 45,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1448,
+		"sum(credit_plus)" : 12,
+		"sum(credit_minus)" : 12,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1450,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1452,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1459,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1460,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1461,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1463,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 1466,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1468,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1471,
+		"sum(credit_plus)" : 34,
+		"sum(credit_minus)" : 34,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1473,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1474,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 1475,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1483,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1485,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1486,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1489,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1490,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1491,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1494,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1496,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1497,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1498,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1500,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1502,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1503,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1510,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1512,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1514,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 1518,
+		"sum(credit_plus)" : 8,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 1520,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1521,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1522,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1523,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1524,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1527,
+		"sum(credit_plus)" : 8,
+		"sum(credit_minus)" : 8,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1529,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1530,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1531,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1543,
+		"sum(credit_plus)" : 53,
+		"sum(credit_minus)" : 46,
+		"sum(credit_plus - credit_minus)" : 7
+	},
+	{
+		"dealerid" : 1545,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1548,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1549,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1554,
+		"sum(credit_plus)" : 15,
+		"sum(credit_minus)" : 14,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1557,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1562,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1568,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1569,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1572,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1576,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1577,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1578,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1580,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1583,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1584,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1585,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1586,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1596,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1600,
+		"sum(credit_plus)" : 13,
+		"sum(credit_minus)" : 13,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1603,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1605,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1606,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1609,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1612,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1614,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1619,
+		"sum(credit_plus)" : 40,
+		"sum(credit_minus)" : 40,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1620,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1621,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1625,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1628,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 1629,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1634,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1636,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1638,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1640,
+		"sum(credit_plus)" : 21,
+		"sum(credit_minus)" : 20,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1643,
+		"sum(credit_plus)" : 17,
+		"sum(credit_minus)" : 17,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1645,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1646,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1647,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1650,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1652,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1657,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1662,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1663,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1665,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1666,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1667,
+		"sum(credit_plus)" : 13,
+		"sum(credit_minus)" : 10,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 1668,
+		"sum(credit_plus)" : 112,
+		"sum(credit_minus)" : 112,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1669,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1670,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1671,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1673,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1674,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1675,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1676,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1677,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1682,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1685,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1686,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1688,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1691,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 1692,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1694,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1695,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1696,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1698,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1700,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1701,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1703,
+		"sum(credit_plus)" : 15,
+		"sum(credit_minus)" : 14,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1710,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1713,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1716,
+		"sum(credit_plus)" : 20,
+		"sum(credit_minus)" : 20,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1717,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1720,
+		"sum(credit_plus)" : 26,
+		"sum(credit_minus)" : 26,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1722,
+		"sum(credit_plus)" : 17,
+		"sum(credit_minus)" : 10,
+		"sum(credit_plus - credit_minus)" : 7
+	},
+	{
+		"dealerid" : 1727,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 9,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1728,
+		"sum(credit_plus)" : 8,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1729,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1731,
+		"sum(credit_plus)" : 9,
+		"sum(credit_minus)" : 8,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1733,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1735,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1738,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1739,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1740,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1752,
+		"sum(credit_plus)" : 8,
+		"sum(credit_minus)" : 8,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1755,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1756,
+		"sum(credit_plus)" : 13,
+		"sum(credit_minus)" : 13,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1762,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1763,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1765,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1768,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 10,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1769,
+		"sum(credit_plus)" : 19,
+		"sum(credit_minus)" : 19,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1773,
+		"sum(credit_plus)" : 8,
+		"sum(credit_minus)" : 8,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1779,
+		"sum(credit_plus)" : 44,
+		"sum(credit_minus)" : 44,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1781,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1783,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1790,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1791,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1793,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1794,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1795,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1816,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1819,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1820,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1823,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1824,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1825,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1830,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1836,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 1844,
+		"sum(credit_plus)" : 8,
+		"sum(credit_minus)" : 8,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1851,
+		"sum(credit_plus)" : 109,
+		"sum(credit_minus)" : 109,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1857,
+		"sum(credit_plus)" : 24,
+		"sum(credit_minus)" : 23,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1867,
+		"sum(credit_plus)" : 20,
+		"sum(credit_minus)" : 20,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1875,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1879,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1882,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1884,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1886,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1890,
+		"sum(credit_plus)" : 65,
+		"sum(credit_minus)" : 65,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1892,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 8,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 1904,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1905,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1906,
+		"sum(credit_plus)" : 37,
+		"sum(credit_minus)" : 37,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1910,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1914,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1916,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1917,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1918,
+		"sum(credit_plus)" : 23,
+		"sum(credit_minus)" : 23,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1920,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1921,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1929,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1933,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 1936,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1940,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1942,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1943,
+		"sum(credit_plus)" : 337,
+		"sum(credit_minus)" : 330,
+		"sum(credit_plus - credit_minus)" : 7
+	},
+	{
+		"dealerid" : 1946,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1950,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1951,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1953,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1956,
+		"sum(credit_plus)" : 13,
+		"sum(credit_minus)" : 13,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1963,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1965,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1966,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 1973,
+		"sum(credit_plus)" : 49,
+		"sum(credit_minus)" : 43,
+		"sum(credit_plus - credit_minus)" : 6
+	},
+	{
+		"dealerid" : 1979,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1980,
+		"sum(credit_plus)" : 4,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 1987,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1991,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1995,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1996,
+		"sum(credit_plus)" : 12,
+		"sum(credit_minus)" : 12,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 1998,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2007,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 2009,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2010,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2011,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2012,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2016,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2019,
+		"sum(credit_plus)" : 35,
+		"sum(credit_minus)" : 27,
+		"sum(credit_plus - credit_minus)" : 8
+	},
+	{
+		"dealerid" : 2020,
+		"sum(credit_plus)" : 25,
+		"sum(credit_minus)" : 20,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2021,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2022,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 2026,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 2027,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2029,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 10,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 2032,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2034,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 2039,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2040,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 9
+	},
+	{
+		"dealerid" : 2041,
+		"sum(credit_plus)" : 11,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2054,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2055,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2056,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2057,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2058,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2059,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2060,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2061,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2062,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2063,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2064,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2065,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2066,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2067,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2068,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2069,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2070,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 2071,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2072,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2073,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2074,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2075,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2076,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2077,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 2078,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2079,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2080,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 2081,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2082,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2083,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2084,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2085,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2086,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2087,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2088,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 2090,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2091,
+		"sum(credit_plus)" : 27,
+		"sum(credit_minus)" : 14,
+		"sum(credit_plus - credit_minus)" : 13
+	},
+	{
+		"dealerid" : 2092,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 10
+	},
+	{
+		"dealerid" : 2093,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2095,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2096,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 2097,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2098,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2099,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 2100,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2101,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2102,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2103,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2104,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2105,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2108,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2109,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2110,
+		"sum(credit_plus)" : 13,
+		"sum(credit_minus)" : 13,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 2111,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2112,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2113,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2114,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2115,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2116,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2117,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2118,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2119,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2120,
+		"sum(credit_plus)" : 17,
+		"sum(credit_minus)" : 12,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2121,
+		"sum(credit_plus)" : 8,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2122,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2123,
+		"sum(credit_plus)" : 8,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2124,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2125,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 2126,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2127,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2128,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2129,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2130,
+		"sum(credit_plus)" : 8,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2131,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2132,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2133,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2134,
+		"sum(credit_plus)" : 15,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 8
+	},
+	{
+		"dealerid" : 2135,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2136,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2137,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2138,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2139,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2140,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2141,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 2142,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2143,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2144,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2145,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2146,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2147,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2148,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2149,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2150,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2151,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2152,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2153,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2154,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2155,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2156,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2157,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2158,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2159,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 2160,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2161,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2162,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2163,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2164,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2165,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2166,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2167,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2168,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2169,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2170,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2177,
+		"sum(credit_plus)" : 16,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 10
+	},
+	{
+		"dealerid" : 2178,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2179,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2180,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2181,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2182,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2183,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2184,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2185,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2186,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2187,
+		"sum(credit_plus)" : 2,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 2188,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2189,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2190,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2191,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2192,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2194,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2195,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2196,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 2197,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2198,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2199,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2203,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2204,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2205,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2206,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2208,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2209,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2210,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2211,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2212,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2213,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2214,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2215,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2216,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2218,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2219,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2220,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2221,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2222,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2223,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2224,
+		"sum(credit_plus)" : 6,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2225,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2226,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2227,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2228,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2229,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 2230,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2231,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2232,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2233,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2234,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 6,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2235,
+		"sum(credit_plus)" : 7,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 2236,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2237,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2238,
+		"sum(credit_plus)" : 1,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2240,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 2241,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2242,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2243,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2244,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2245,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2246,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2247,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2248,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2249,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2250,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2251,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2252,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2253,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2254,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2255,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2256,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2257,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 2258,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2259,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 4,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2260,
+		"sum(credit_plus)" : 3,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 0
+	},
+	{
+		"dealerid" : 2261,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2262,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2263,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2264,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2265,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2267,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2268,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 2269,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2271,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2272,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2273,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2274,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2275,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2276,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2277,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2278,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2279,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2280,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2281,
+		"sum(credit_plus)" : 12,
+		"sum(credit_minus)" : 7,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2282,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2283,
+		"sum(credit_plus)" : 13,
+		"sum(credit_minus)" : 12,
+		"sum(credit_plus - credit_minus)" : 1
+	},
+	{
+		"dealerid" : 2284,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2285,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2286,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2287,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2288,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2289,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2290,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2291,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2292,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2293,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2294,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2295,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2296,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2297,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2300,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2301,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2302,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2305,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2306,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2307,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2308,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2309,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2310,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2311,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2312,
+		"sum(credit_plus)" : 10,
+		"sum(credit_minus)" : 5,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2313,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2314,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2315,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2316,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2317,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2318,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2319,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2320,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2321,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2322,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2323,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2324,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2325,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2326,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2327,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2328,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2329,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2330,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2331,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2332,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2333,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2334,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2335,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2336,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2337,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2338,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2339,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2340,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2341,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2342,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2343,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2344,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2345,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2346,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2347,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2348,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2349,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2350,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2351,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2352,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2353,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 3,
+		"sum(credit_plus - credit_minus)" : 2
+	},
+	{
+		"dealerid" : 2354,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2356,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2357,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2358,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2359,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2360,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2361,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2362,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2363,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2364,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2365,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2366,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2367,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2368,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2369,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2370,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2371,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2372,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2373,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2374,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2375,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 2,
+		"sum(credit_plus - credit_minus)" : 3
+	},
+	{
+		"dealerid" : 2376,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2377,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2378,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2379,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2380,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2381,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2382,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2383,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2384,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2385,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2386,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2387,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2388,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2389,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2390,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2391,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2392,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2393,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2394,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2396,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2400,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2401,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2402,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2403,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2404,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2405,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2406,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2407,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2408,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2410,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2411,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2412,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	},
+	{
+		"dealerid" : 2413,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 1,
+		"sum(credit_plus - credit_minus)" : 4
+	},
+	{
+		"dealerid" : 2414,
+		"sum(credit_plus)" : 5,
+		"sum(credit_minus)" : 0,
+		"sum(credit_plus - credit_minus)" : 5
+	}
+]

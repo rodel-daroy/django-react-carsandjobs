@@ -1,0 +1,29 @@
+@import 'styles/_layout';
+
+.jobs-view-browse {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+	&-refine {
+		width: 100%;
+		max-width: 100%;
+
+		flex-grow: 1;
+	}
+
+	&-commands {
+		margin-top: auto;
+	}
+
+	.primary-button {
+		flex-shrink: 0;
+	}
+
+	@media (max-width: $screen-sm-max) {
+		&-refine {
+			padding: $content-padding $content-margin;
+			width: 100%;
+		}
+	}
+}

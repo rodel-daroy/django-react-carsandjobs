@@ -1,0 +1,53 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+
+.resumes-view {
+	flex-grow: 1;
+	min-height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+
+	&-add {
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+
+	&-md {
+		flex-grow: 1;
+	}
+
+	&-md-master {
+		max-width: 300px;
+	}
+
+	&-md-master-inner {
+		display: block;
+
+		padding-top: $content-padding;
+		padding-bottom: $content-padding;
+	}
+
+	&-md,
+	&-md-detail {
+		overflow: visible;
+	}
+
+	&-list {
+		width: 100%;
+		max-width: $max-content-width;
+		overflow: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	&-commands {
+		padding: $content-padding;
+	}
+
+	&-back {
+		margin-top: $content-margin;
+	}
+}

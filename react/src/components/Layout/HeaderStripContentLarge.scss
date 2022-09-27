@@ -1,0 +1,27 @@
+@import 'styles/_layout';
+
+.header-strip-content-large {
+	margin: 1em $content-margin;
+	padding: 0 $content-padding;
+
+	h1 {
+		text-transform: none;
+		font-size: 2.6rem;
+	}
+
+	.header-strip-content-back {
+		&:first-child {
+			margin-left: -$content-padding !important;
+		}
+	}
+
+	@media (max-width: $screen-xs-max) {
+		padding: 0;
+
+		.header-strip-content-back {
+			&:first-child {
+				margin-left: 0 !important;
+			}
+		}
+	}
+}

@@ -1,0 +1,55 @@
+@import 'styles/_layout';
+
+.application-view {
+	display: flex;
+	flex-direction: column;
+	
+	&-md {
+		flex-grow: 1;
+	}
+
+	&-md-detail-inner {
+		height: 100%;
+	}
+
+	&-hs-content {
+		padding: 0 $content-margin;
+	}
+
+	&-md-detail {
+		padding-top: $content-margin;
+		padding-bottom: $content-margin;
+	}
+
+	&-md-master {
+		min-width: 380px;
+	}
+
+	&-md-master-inner {
+		max-height: 100%;
+	}
+
+	.application-detail {
+		flex-grow: 1;
+	}
+
+	@media (max-width: $screen-sm-max) {
+		&-md-detail {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+
+		&-md {
+			flex-grow: 1;
+		}
+
+		&-card-list {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+
+		&-md-master {
+			min-width: 0;
+		}
+	}
+}

@@ -1,0 +1,19 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+
+.template-preview {
+	width: 100%;
+	max-width: $max-content-width;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid $brand-lightgrey;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: stretch;
+
+	> .job-detail {
+		flex-grow: 1;
+		max-height: 100%;
+	}
+}

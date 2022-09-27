@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="en-us" >
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Order Tiles</title>
+
+  <link rel="stylesheet" type="text/css" href=""/>
+  <link rel="stylesheet" type="text/css" href="https://media-dev-autolife-ca.s3.amazonaws.com/static/suit/bootstrap/css/bootstrap.min.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="https://media-dev-autolife-ca.s3.amazonaws.com/static/suit/css/suit.css" media="all">
+
+    <style>
+        select[multiple], select[size] {
+            height: 200px;
+        }
+        select {
+            width: 80%;
+        }
+        input {
+            width: 50%;
+        }
+    </style>
+
+
+  <script type="text/javascript">window.__admin_media_prefix__ = "https://media\u002Ddev\u002Dautolife\u002Dca.s3.amazonaws.com/static/admin/";</script>
+  <script src="https://media-dev-autolife-ca.s3.amazonaws.com/static/suit/js/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript">var Suit = { $: $.noConflict() }; if (!$) $ = Suit.$; </script>
+  <script src="https://media-dev-autolife-ca.s3.amazonaws.com/static/suit/bootstrap/js/bootstrap.min.js"></script>
+
+  <style type="text/css">.required:after { content: '*'; margin: 0 0 0 5px; position: absolute; color: #ccc;}</style>
+
+
+
+    <meta name="robots" content="NONE,NOARCHIVE"/>
+</head>
+
+
+<body class="">
+
+<!-- Sticky footer wrap -->
+<div id="wrap">
+
+  <!-- Container -->
+
+    <div id="container">
+
+
+
+          <!-- Header -->
+          <div id="header" class="header">
+            <div id="branding">
+              <a href="/admin/"><h1 id="site-name">Carsnjobs Admin</h1></a>
+            </div>
+
+
+            <div class="header-content header-content-first">
+              <div class="header-column icon">
+                <i class="icon-time"></i>
+              </div>
+              <div class="header-column">
+                <span class="date"> Tuesday, 14th August 2018</span><br>
+                <span class="time" id="clock">14:37</span>
+              </div>
+            </div>
+
+
+
+              <!--<div class="header-content">
+                <div class="header-column icon">
+                  <i class="icon-comment"></i>
+                </div>
+                <div class="header-column">
+                  <a href="" class="grey"><b>2</b> new messages</a>
+                </div>
+              </div>-->
+
+
+
+              <div id="user-tools">
+
+                  Welcome,
+                  <strong>
+
+                      General</strong>.
+
+                <span class="user-links">
+
+
+
+                  <a href="/admin/password_change/">Change password</a>
+                  <span class="separator">|</span>
+                  <a href="/admin/logout/">Log out</a>
+
+                </span>
+              </div>
+
+
+    <span>
+        <a href='/admin/add_assets/' class="btn btn-info center" style="margin-top: 0.5%;">Add Assets</a>
+        <a class="btn btn-default btn-info" href="/admin/all_assets/" style="margin-top: 0.5%; margin-left: 0.5%;">See All Assets</a>
+        <a class="btn btn-default btn-danger" href="/clear_cache/" style="margin-top: 0.5%;">Clear Cache</a>
+        <a class="btn btn-default btn-info" href="/services/" style="margin-top: 0.5%;">Services Dashboard</a>
+    </span>
+
+          </div>
+
+        <!-- END Header -->
+
+
+
+      <div class="suit-columns two-columns">
+
+
+          <div id="suit-center" class="suit-column">
+
+
+
+    <div class="breadcrumb">
+    <li style="list-style: None;"><a href="/admin/">Home</a>
+        <span class="divider">»</span></li>
+    <li style="list-style: None;"><a href="/admin/ui_controllers/">UI Controllers</a>
+        <span class="divider">»</span></li>
+    <li style="list-style: None;">Ordering Tiles
+        <span class="divider">»</span></li>
+    </div>
+
+
+
+
+
+
+
+            <!-- Content -->
+            <div id="content" class="colM row-fluid">
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <div class="muted">
+        Drag and drop table rows to set the order.<br/>
+    </div>
+
+        <h2 class="text-info text-center">Homepage Featured Default</h2>
+        <table id="result_list" class="table table-striped table-bordered table-hover table-condensed">
+            <thead>
+            <tr>
+
+
+                <th scope="col" class="id-column sortable column-id">
+
+
+                    <div class="text">
+                        <a href="#">ID</a>
+                    </div>
+                </th>
+                <th scope="col" class="name-column sortable column-name">
+
+
+                    <div class="text">
+                        <a href="#">Name</a>
+                    </div>
+                </th>
+                <th scope="col" class="name-column sortable column-name">
+
+
+                    <div class="text">
+                        <a href="#">Category</a>
+                    </div>
+                </th>
+                <th scope="col" class="name-column sortable column-name">
+
+
+                    <div class="text">
+                        <a href="#">Status</a>
+                    </div>
+                </th>
+            </tr>
+            </thead>
+            <tbody id="sortable6">
+
+
+
+                <tr class="row1" id="96">
+
+                    <th class="field-id"><a
+                            href="/admin/ui_controllers/controllertile/96/change/">96</a></th>
+                    <td class="field-name">Welcome to AutoLife
+                    </td>
+                    <td class="field-name">Homepage Featured Default
+                    </td>
+                    <td class="field-name"> Active
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <button class="pull-right btn btn-info" id="update-order6">Set Order</button><br/>
+        <script>
+            $( function() {
+                $( "#sortable6" ).sortable();
+                $("#update-order"+'6').click(function (evt) {
+                    var childs =  $("#sortable6").children();
+                    var results = [];
+                    for(i=0; i<childs.length; i++){
+                        div_id = $(childs[i]).attr("id");
+                        results.push(div_id);
+                    }
+                    console.log(results);
+                    var url = '/ui_controllers/update/';
+                    $.ajax({
+                        url: url,
+                        type: "POST",
+                        data: JSON.stringify({'ui_tile_order': results}),
+                        dataType: "json",
+                        contentType: "application/json; charset=utf-8",
+                        success: function (response) {
+                            alert(response.message);
+                        }
+                    })
+
+                })
+            } );
+        </script>
+
+
+
+
+  <script src="https://media-dev-autolife-ca.s3.amazonaws.com/static/suit/js/suit.js"></script>
+            </div>
+          </div>
+      </div>
+    </div>
+</div>
+
+
+</body>
+</html>

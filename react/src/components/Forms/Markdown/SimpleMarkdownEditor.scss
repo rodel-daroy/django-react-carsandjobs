@@ -1,0 +1,137 @@
+@import 'styles/_typography';
+@import 'styles/_layout';
+@import 'styles/_colors';
+@import '../common';
+
+@import '~easymde/dist/easymde.min.css';
+
+.simple-markdown-editor {
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	border: 1px solid $input-border;
+	border-radius: $input-border-radius;
+	overflow: hidden;
+
+	display: flex;
+	align-items: stretch;
+
+	.cm-s-easymde,
+	.editor-toolbar {
+		border: none;
+	}
+
+	.cm-s-easymde {
+		background: none;
+		
+		.cm-formatting {
+			opacity: .5;
+		}
+
+		/* .cm-header-1,
+		.cm-header-2,
+		.cm-header-3,
+		.cm-header-4,
+		.cm-header-5,
+		.cm-header-6 {
+			display: inline-block;
+		} */
+
+		.cm-header-1 {
+			@extend %h3;
+		}
+		.cm-header-2 {
+			@extend %h4;
+		}
+		.cm-header-3 {
+			@extend %h5;
+		}
+		.cm-header-4, 
+		.cm-header-5, 
+		.cm-header-6 {
+			@extend %h6;
+		}
+
+		.cm-comment {
+			font-style: italic;
+		}
+	}
+
+	.editor-toolbar {
+		background-color: lighten($brand-lightgrey, 9%);
+		border-bottom: 1px solid $input-border;
+
+		button {
+			margin: 0 ($content-padding / 4);
+		}
+	}
+
+	&-mde {
+		background-color: $brand-white;
+	}
+
+	&-mde,
+	&-preview {
+		flex-basis: 50%;
+		flex-grow: 1;
+	}
+
+	&-preview {
+		border-left: 1px solid $input-border;
+		background-color: darken($brand-white, 2%);
+
+		&-title {
+			height: 49px;
+			font-family: $font-family-headings;
+			font-weight: $font-weight-semibold;
+			text-transform: uppercase;
+			padding: ($content-padding / 2) $content-padding;
+			background-color: $brand-lightgrey;
+			color: $brand-white;
+			font-size: 1.3rem;
+			display: flex;
+			align-items: flex-end;
+		}
+
+		&-content {
+			padding: $content-padding;
+		}
+	}
+
+	&.template {
+		.cm-s-easymde .cm-comment {
+			color: $brand-blue;
+		}
+	}
+
+	&.focused {
+		border-color: $input-border-focus;
+	}
+
+	&.autofilled {
+		border-color: $brand-blue;
+	}
+
+	&.error {
+		border-color: $brand-red;
+	}
+
+	&.warning {
+		border-color: $brand-orange;
+	}
+
+	&.disabled {
+		.simple-markdown-editor-preview {
+			border-left: none;
+			background-color: rgba($brand-lightgrey, .5);
+
+			&-title {
+				display: none;
+			}
+
+			&-content {
+				border-radius: $input-border-radius;
+			}
+		}
+	}
+}

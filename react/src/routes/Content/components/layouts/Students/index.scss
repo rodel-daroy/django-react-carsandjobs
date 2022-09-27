@@ -1,0 +1,24 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+
+.students-layout {
+	.content-layout-md-master {
+		min-width: 400px;
+		background-color: $brand-white;
+	}
+
+	.content-layout-sidebar {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		padding-left: $content-padding !important;
+
+		.programme-search-box {
+			max-width: 400px;
+		}
+	}
+
+	> .programme-search-box {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}

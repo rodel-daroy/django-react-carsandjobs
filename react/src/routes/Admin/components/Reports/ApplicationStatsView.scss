@@ -1,0 +1,15 @@
+@import 'styles/_typography';
+@import 'styles/_layout';
+
+.application-stats-view {
+	&-filter {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	
+	&-table {
+		margin: 0;
+		padding: 0;
+	}
+}

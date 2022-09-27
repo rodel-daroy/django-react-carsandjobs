@@ -1,0 +1,8 @@
+{
+  "classPrefix": "",
+  "options": [
+  ],
+  "feature-detects": [
+    "css/objectfit"
+  ]
+}

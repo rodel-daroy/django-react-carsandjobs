@@ -1,0 +1,40 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+@import 'styles/_typography';
+
+.asset-selector {
+	&-assets {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	&-asset {
+		flex-basis: 10%;
+		flex-grow: 0;
+		flex-shrink: 0;
+		min-width: 140px;
+
+		appearance: none;
+		border: none;
+		background: none;
+		padding: $content-padding;
+		position: relative;
+		cursor: pointer;
+
+		border: 2px solid transparent;
+		border-radius: $base-border-radius;
+
+		&.selected {
+			border-color: $brand-red;
+		}
+
+		&:hover {
+			background-color: $brand-red;
+			border-color: $brand-red;
+
+			&, * {
+				color: $brand-white;
+			}
+		}
+	}
+}

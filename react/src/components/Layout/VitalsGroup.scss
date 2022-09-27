@@ -1,0 +1,31 @@
+@import 'styles/_colors';
+@import 'styles/_typography';
+@import 'styles/_layout';
+
+.vitals-group {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+	> li {
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+
+		margin-bottom: $content-margin;
+	}
+
+	&-caption {
+		font-family: $font-family-headings;
+		font-weight: $font-weight-medium;
+		font-size: 1.8rem;
+	}
+
+	&-children {
+		color: $brand-darkgrey;
+	}
+
+	&:empty {
+		display: none;
+	}
+}

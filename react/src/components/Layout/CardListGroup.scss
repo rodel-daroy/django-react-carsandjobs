@@ -1,0 +1,39 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+
+.card-list-group {
+	margin-top: $content-margin * 2;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	&-header {
+		background-color: $brand-lightgrey;
+		padding: $content-padding;
+
+		h1, h2, h3, h4, h5, h6 {
+			&:first-child {
+				color: $brand-darkblue;
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		p {
+			font-style: italic;
+			
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	@media (max-width: $screen-sm-max) {
+		&:first-child {
+			margin-top: $content-margin;
+		}
+	}
+}

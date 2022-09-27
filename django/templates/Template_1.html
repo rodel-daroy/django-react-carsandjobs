@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Employee Dashboard</title>
+</head>
+<body>
+{% if is_authenticated %}
+<h1>Employee Dashboard</h1>
+    {{ member_user.FirstName }}
+    {{ member_user.LastName }}
+    {{ member_user.Email }}
+{% else %}
+<h1>You are not authenticated</h1>
+{% endif %}
+</body>
+</html>

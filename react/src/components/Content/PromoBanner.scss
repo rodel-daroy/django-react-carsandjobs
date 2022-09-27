@@ -1,0 +1,14 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+
+.promo-banner {
+	padding: $content-margin;
+
+	background-color: $brand-green;
+
+	&-inner {
+		padding: $content-padding;
+
+		text-align: center;
+	}
+}

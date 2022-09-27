@@ -1,0 +1,27 @@
+@import 'styles/_typography';
+
+.job-card {
+	.card-image {
+		flex-basis: 0;
+		flex-grow: 25;
+		max-width: 150px;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	&-placeholder {
+		height: 100px;
+	}
+	
+	&-location > .card-description {
+		opacity: .5;
+
+		text-transform: uppercase;
+		font-family: $font-family-headings;
+		font-weight: $font-weight-bold;
+		font-size: 1.3rem;
+		padding-top: .15em;
+	}
+}

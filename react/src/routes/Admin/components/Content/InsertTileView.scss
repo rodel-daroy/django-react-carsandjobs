@@ -1,0 +1,20 @@
+.insert-tile-view {
+	width: 80vw;
+	max-height: 80vh;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+
+	&-tabs {
+		min-height: 0;
+
+		.tab-set-tabs {
+			margin-left: 0 !important;
+			margin-right: 0 !important;
+		}
+
+		.tab-set-content {
+			overflow: auto;
+		}
+	}
+}

@@ -1,0 +1,16 @@
+@import 'styles/_colors';
+@import 'styles/_layout';
+
+.alert {
+	background-color: lighten($brand-lightgrey, 6%);
+
+	border: 1px solid lighten($brand-lightgrey, 15%);
+	@include border-shape;
+
+	padding: ($content-padding / 1.5) $content-padding;
+	margin-bottom: $content-margin;
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}

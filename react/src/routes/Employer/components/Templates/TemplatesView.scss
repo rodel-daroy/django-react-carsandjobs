@@ -1,0 +1,23 @@
+@import 'styles/_layout';
+
+.templates-view {
+	&-md {
+		flex-grow: 1;
+	}
+	
+	&-md-detail-inner {
+		padding: $content-padding * 2;
+	}
+
+	&-md-master,
+	&-md-detail {
+		display: flex;
+		justify-content: stretch;
+	}
+
+	@media (max-width: $screen-sm-max) {
+		&-md-detail-inner {
+			padding: 0;
+		}
+	}
+}

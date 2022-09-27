@@ -1,0 +1,49 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+
+.tile-edit-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+
+	&-controls {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 5;
+		pointer-events: none;
+
+		opacity: 0;
+
+		transition: opacity .5s;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		padding: $content-padding;
+	}
+
+	&-handle, &-commands {
+		pointer-events: auto;
+	}
+
+	&-handle {
+		font-size: 2.5rem;
+		cursor: grab;
+		color: $brand-white;
+
+		.icon {
+			display: inline-block;
+			transform: rotate(90deg);
+			text-shadow: 0px 0px 4px rgba($brand-black, .5);
+		}
+	}
+
+	&:hover {
+		.tile-edit-overlay-controls {
+			opacity: 1;
+		}
+	}
+}

@@ -1,0 +1,63 @@
+@import 'styles/_layout';
+
+.resume-search-view {
+	.breadcrumbs, .job-filter {
+		margin: $content-padding 0;
+	}
+
+	.breadcrumbs {
+		margin-right: $content-margin;
+	}
+	
+	&-back {
+		margin-right: $content-padding;
+	}
+
+	&-refine {
+		flex-shrink: 0;
+
+		margin-left: auto;
+	}
+
+	&-md {
+		flex-grow: 1;
+	}
+
+	&-md-master,
+	&-md-detail {
+		display: flex;
+		justify-content: stretch;
+	}
+
+	&-md-master-inner {
+		padding: 0;
+	}
+
+	&-md-detail-inner {
+		padding: 0 $content-margin;
+	}
+
+	&-commands {
+		margin-left: auto;
+	}
+
+	@media (min-width: $screen-md-min) {
+		&-back {
+			display: none;
+		}
+	}
+
+	@media (max-width: $screen-sm-max) {
+		&-header {
+			padding: 0 $content-margin;
+		}
+
+		&-md-detail-inner {
+			padding: 0;
+		}
+
+		&-cards {
+			padding: 0;
+		}
+	}
+}

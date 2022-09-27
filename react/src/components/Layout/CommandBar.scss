@@ -1,0 +1,80 @@
+@import 'styles/_colors';
+@import 'styles/_layout';
+
+.command-bar {
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		display: inline-flex;
+		align-items: stretch;
+		justify-content: center;
+
+		> li {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			padding: 6px $content-padding;
+
+			&:first-child {
+				padding-left: 0;
+			}
+
+			&:last-child {
+				padding-right: 0;
+			}
+
+			> * {
+				margin: 0;
+			}
+
+			&[role=separator] {
+				flex-grow: 1;
+			}
+		}
+	}
+
+	&.vertical:not(.mobile) {
+		ul {
+			flex-direction: column;
+
+			> li {
+				padding: 6px;
+
+				&:first-child {
+					padding-top: 0;
+				}
+
+				&:last-child {
+					padding-bottom: 0;
+				}
+			}
+		}
+	}
+
+	&.mobile {
+		background-color: $brand-lightgrey;
+		padding: 8px $content-margin;
+
+		ul {
+			width: 100%;
+			align-items: stretch;
+			
+			> li {
+				flex-basis: 0;
+				flex-shrink: 1;
+				flex-grow: 1;
+
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				> * {
+					flex-basis: 100%;
+				}
+			}
+		}
+	}
+}

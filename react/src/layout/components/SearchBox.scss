@@ -1,0 +1,86 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+
+.search-box {
+	position: relative;
+
+	&.background {
+		color: $brand-white;
+
+		.search-form-filter label {
+			color: $brand-lightgrey;
+		}
+	}
+
+	.a-spot-content {
+		&:before {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			content: '';
+			display: block;
+
+			background-color: rgba($brand-white, .5);
+			opacity: 0;
+		}
+	}
+
+	@keyframes flash-search-box {
+		0% {
+			opacity: 0;
+		}
+		50% {
+			opacity: 1;
+		}
+		100% {
+			opacity: 0;
+		}
+	}
+
+	&.flash {
+		.a-spot-content:before {
+			animation: {
+				name: flash-search-box;
+				duration: .5s;
+			}
+		}
+	}
+
+	&-content {
+		position: relative;
+		align-self: stretch;
+		padding: $relative-v-padding 0;
+	}
+
+	&-a-spot {
+		align-items: center;
+	}
+
+	&-horizontal {
+		display: flex;
+    	justify-content: center;
+	}
+
+	&-title {
+		text-align: center;
+
+		padding-left: $content-padding + $content-margin;
+		padding-right: $content-padding + $content-margin;
+	}
+
+	.search-form.vertical {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	@media (max-width: $screen-sm-max) {
+		&-a-spot {
+			.search-form.vertical .search-form-filter {
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+	}
+}

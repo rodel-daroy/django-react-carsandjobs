@@ -1,0 +1,49 @@
+@import 'styles/_layout';
+@import 'styles/_typography';
+
+.default-layout {
+	&-carousel {
+		height: 30vw;
+		min-height: 300px;
+		max-height: 450px;
+
+		.object-fit-content {
+			left: $content-padding;
+			right: $content-padding;
+			top: $content-padding;
+			bottom: $content-padding;
+		}
+	}
+
+	&-attrib-mobile-outer {
+		display: none;
+
+		&:empty {
+			display: none !important;
+		}
+	}
+
+	&-attrib-mobile {
+		padding-left: $content-padding;
+		padding-right: $content-padding;
+	}
+	
+	@media (max-width: $screen-sm-max) {
+		&-md-detail-inner {
+			padding: $content-margin;
+		}
+
+		&-attrib-mobile-outer {
+			display: block;
+			background-color: $brand-white;
+			padding: $content-margin;
+			padding-bottom: 0;
+
+			& + .content-layout-md {
+				.content-layout-md-detail-inner {
+					padding-top: $content-padding;
+				}
+			}
+		}
+	}
+}

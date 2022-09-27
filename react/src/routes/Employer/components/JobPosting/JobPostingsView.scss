@@ -1,0 +1,35 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+@import 'styles/_typography';
+
+.job-postings-view {
+	&-inner {
+		padding: $content-padding;
+
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+
+		&:nth-child(odd) {
+			background-color: $tint-color;
+		}
+	}
+
+	&-list {
+		align-self: stretch;
+	}
+
+	&-controls {
+		padding: $content-padding;
+		padding-bottom: 0;
+		width: 100%;
+	}
+
+	&-add {
+		margin-bottom: $content-margin * 2;
+	}
+
+	&-dealer {
+		margin-bottom: $content-padding;
+	}
+}

@@ -1,0 +1,12 @@
+@import 'styles/_layout';
+
+.scroll-container {
+	&-outer {
+		overflow: auto;
+		display: flex;
+	}
+
+	&-inner {
+		padding: $content-margin ($content-margin + $content-padding);
+	}
+}

@@ -1,0 +1,49 @@
+@import 'styles/_layout';
+
+.job-application-view {
+	&-inner {
+		margin: $content-margin;
+
+		position: relative;
+	}
+
+	.job-card {
+		margin-bottom: $content-margin * 2;
+	}
+
+	&-card, &-tabs {
+		padding: 0 $content-padding;
+	}
+
+	&-tab, &-card, &-tabs {
+		width: 100%;
+		max-width: $max-text-width;
+	}
+
+	&-tab {
+		margin-top: $content-margin;
+	}
+
+	@media (max-width: $screen-xs-max) {
+		&-tabs {
+			padding: 0;
+		}
+
+		.job-card {
+			margin-bottom: 0;
+		}
+
+		&-card {
+			padding: 0;
+			margin: -$content-margin;
+			margin-bottom: 0;
+
+			width: calc(100% + #{$content-margin} * 2);
+		}
+	}
+}
+
+.job-application-modal {
+	max-width: 100%;
+	width: 350px;
+}

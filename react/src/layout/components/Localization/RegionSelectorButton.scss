@@ -1,0 +1,13 @@
+.region-selector-button {
+	align-items: center;
+	
+	&-region {
+		text-transform: uppercase;
+	}
+}
+
+.region-selector-button-modal-content {
+	&, .responsive-modal-frame-content {
+		overflow: visible !important;
+	}
+}

@@ -1,0 +1,13 @@
+@import 'styles/_colors';
+
+.credit-summary {
+	&-balance {
+		&:not(.positive) {
+			background-color: $tint-red;
+		}
+
+		&.positive {
+			background-color: $tint-green;
+		}
+	}
+}

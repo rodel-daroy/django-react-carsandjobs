@@ -1,0 +1,45 @@
+@import 'styles/_colors';
+@import 'styles/_typography';
+@import './_common';
+
+.radio-list-field {
+	position: relative;
+
+	&-inner {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		align-items: stretch;
+	}
+
+	input[type=radio] {
+		position: absolute;
+		opacity: 0;
+	}
+
+	&-label {
+		border: 1px solid $brand-lightgrey;
+		border-radius: $input-border-radius;
+		margin: 0 !important;
+		margin-top: 1px !important;
+		padding: 2px 8px;
+
+		font-family: $font-family-body !important;
+		font-size: 14px !important;
+		
+		background-color: $brand-white;
+		cursor: pointer;
+
+		&:hover {
+			background-color: $brand-red;
+			color: $brand-white;
+			border-color: $brand-red;
+		}
+
+		&.checked {
+			background-color: $brand-red;
+			color: $brand-white;
+			border-color: $brand-red;
+		}
+	}
+}

@@ -1,0 +1,10 @@
+@import 'styles/_layout';
+
+.contact-us-form {
+	position: relative;
+	padding: $content-padding;
+
+	@media (max-width: $screen-xs-max) {
+		padding: 0;
+	}
+}

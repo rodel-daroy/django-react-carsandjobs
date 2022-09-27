@@ -1,0 +1,302 @@
+[
+  {
+    "STATE": "Alabama",
+    "Abbreviated state name": "AL",
+    "CAPITAL": "Montgomery",
+    "POSTALCODE": "36101"
+  },
+  {
+    "STATE": "Alaska",
+    "Abbreviated state name": "AK",
+    "CAPITAL": "Juneau",
+    "POSTALCODE": "99801"
+  },
+  {
+    "STATE": "Arizona",
+    "Abbreviated state name": "AZ",
+    "CAPITAL": "Phoenix",
+    "POSTALCODE": "85001"
+  },
+  {
+    "STATE": "Arkansas",
+    "Abbreviated state name": "AR",
+    "CAPITAL": "Little Rock",
+    "POSTALCODE": "72201"
+  },
+  {
+    "STATE": "California",
+    "Abbreviated state name": "CA",
+    "CAPITAL": "Sacramento",
+    "POSTALCODE": "94203"
+  },
+  {
+    "STATE": "Colorado",
+    "Abbreviated state name": "CO",
+    "CAPITAL": "Denver",
+    "POSTALCODE": "80201"
+  },
+  {
+    "STATE": "Connecticut",
+    "Abbreviated state name": "CT",
+    "CAPITAL": "Hartford",
+    "POSTALCODE": "6101"
+  },
+  {
+    "STATE": "Delaware",
+    "Abbreviated state name": "DE",
+    "CAPITAL": "Dover",
+    "POSTALCODE": "19901"
+  },
+  {
+    "STATE": "Florida",
+    "Abbreviated state name": "FL",
+    "CAPITAL": "Tallahassee",
+    "POSTALCODE": "32301"
+  },
+  {
+    "STATE": "Georgia",
+    "Abbreviated state name": "GA",
+    "CAPITAL": "Atlanta",
+    "POSTALCODE": "30301"
+  },
+  {
+    "STATE": "Hawaii",
+    "Abbreviated state name": "HI",
+    "CAPITAL": "Honolulu",
+    "POSTALCODE": "96801"
+  },
+  {
+    "STATE": "Idaho",
+    "Abbreviated state name": "ID",
+    "CAPITAL": "Boise",
+    "POSTALCODE": "83701"
+  },
+  {
+    "STATE": "Illinois",
+    "Abbreviated state name": "IL",
+    "CAPITAL": "Springfield",
+    "POSTALCODE": "62701"
+  },
+  {
+    "STATE": "Indiana",
+    "Abbreviated state name": "IN",
+    "CAPITAL": "Indianapolis",
+    "POSTALCODE": "46201"
+  },
+  {
+    "STATE": "Iowa",
+    "Abbreviated state name": "IA",
+    "CAPITAL": "Des Moines",
+    "POSTALCODE": "50301"
+  },
+  {
+    "STATE": "Kansas",
+    "Abbreviated state name": "KS",
+    "CAPITAL": "Topeka",
+    "POSTALCODE": "66601"
+  },
+  {
+    "STATE": "Kentucky",
+    "Abbreviated state name": "KY",
+    "CAPITAL": "Frankfort",
+    "POSTALCODE": "40601"
+  },
+  {
+    "STATE": "Louisiana",
+    "Abbreviated state name": "LA",
+    "CAPITAL": "Baton Rouge",
+    "POSTALCODE": "70801"
+  },
+  {
+    "STATE": "Maine",
+    "Abbreviated state name": "ME",
+    "CAPITAL": "Augusta",
+    "POSTALCODE": "4330"
+  },
+  {
+    "STATE": "Maryland",
+    "Abbreviated state name": "MD",
+    "CAPITAL": "Annapolis",
+    "POSTALCODE": "21401"
+  },
+  {
+    "STATE": "Massachusetts",
+    "Abbreviated state name": "MA",
+    "CAPITAL": "Boston",
+    "POSTALCODE": "2108"
+  },
+  {
+    "STATE": "Michigan",
+    "Abbreviated state name": "MI",
+    "CAPITAL": "Lansing",
+    "POSTALCODE": "48901"
+  },
+  {
+    "STATE": "Minnesota",
+    "Abbreviated state name": "MN",
+    "CAPITAL": "St. Paul",
+    "POSTALCODE": "55101"
+  },
+  {
+    "STATE": "Mississippi",
+    "Abbreviated state name": "MS",
+    "CAPITAL": "Jackson",
+    "POSTALCODE": "39201"
+  },
+  {
+    "STATE": "Missouri",
+    "Abbreviated state name": "MO",
+    "CAPITAL": "Jefferson City",
+    "POSTALCODE": "65101"
+  },
+  {
+    "STATE": "Montana",
+    "Abbreviated state name": "MT",
+    "CAPITAL": "Helena",
+    "POSTALCODE": "59601"
+  },
+  {
+    "STATE": "Nebraska",
+    "Abbreviated state name": "NE",
+    "CAPITAL": "Lincoln",
+    "POSTALCODE": "68501"
+  },
+  {
+    "STATE": "Nevada",
+    "Abbreviated state name": "NV",
+    "CAPITAL": "Carson City",
+    "POSTALCODE": "89701"
+  },
+  {
+    "STATE": "New Hampshire",
+    "Abbreviated state name": "NH",
+    "CAPITAL": "Concord",
+    "POSTALCODE": "3301"
+  },
+  {
+    "STATE": "New Jersey",
+    "Abbreviated state name": "NJ",
+    "CAPITAL": "Trenton",
+    "POSTALCODE": "8601"
+  },
+  {
+    "STATE": "New Mexico",
+    "Abbreviated state name": "NM",
+    "CAPITAL": "Santa Fe",
+    "POSTALCODE": "87501"
+  },
+  {
+    "STATE": "New York",
+    "Abbreviated state name": "NY",
+    "CAPITAL": "Albany",
+    "POSTALCODE": "12201"
+  },
+  {
+    "STATE": "North Carolina",
+    "Abbreviated state name": "NC",
+    "CAPITAL": "Raleigh",
+    "POSTALCODE": "27601"
+  },
+  {
+    "STATE": "North Dakota",
+    "Abbreviated state name": "ND",
+    "CAPITAL": "Bismarck",
+    "POSTALCODE": "58501"
+  },
+  {
+    "STATE": "Ohio",
+    "Abbreviated state name": "OH",
+    "CAPITAL": "Columbus",
+    "POSTALCODE": "43201"
+  },
+  {
+    "STATE": "Oklahoma",
+    "Abbreviated state name": "OK",
+    "CAPITAL": "Oklahoma City",
+    "POSTALCODE": "73101"
+  },
+  {
+    "STATE": "Oregon",
+    "Abbreviated state name": "OR",
+    "CAPITAL": "Salem",
+    "POSTALCODE": "97301"
+  },
+  {
+    "STATE": "Pennsylvania",
+    "Abbreviated state name": "PA",
+    "CAPITAL": "Harrisburg",
+    "POSTALCODE": "17101"
+  },
+  {
+    "STATE": "Rhode Island",
+    "Abbreviated state name": "RI",
+    "CAPITAL": "Providence",
+    "POSTALCODE": "2901"
+  },
+  {
+    "STATE": "South Carolina",
+    "Abbreviated state name": "SC",
+    "CAPITAL": "Columbia",
+    "POSTALCODE": "29201"
+  },
+  {
+    "STATE": "South Dakota",
+    "Abbreviated state name": "SD",
+    "CAPITAL": "Pierre",
+    "POSTALCODE": "57501"
+  },
+  {
+    "STATE": "Tennessee",
+    "Abbreviated state name": "TN",
+    "CAPITAL": "Nashville",
+    "POSTALCODE": "37201"
+  },
+  {
+    "STATE": "Texas",
+    "Abbreviated state name": "TX",
+    "CAPITAL": "Austin",
+    "POSTALCODE": "73301"
+  },
+  {
+    "STATE": "Utah",
+    "Abbreviated state name": "UT",
+    "CAPITAL": "Salt Lake City",
+    "POSTALCODE": "84101"
+  },
+  {
+    "STATE": "Vermont",
+    "Abbreviated state name": "VT",
+    "CAPITAL": "Montpelier",
+    "POSTALCODE": "5601"
+  },
+  {
+    "STATE": "Virginia",
+    "Abbreviated state name": "VA",
+    "CAPITAL": "Richmond",
+    "POSTALCODE": "23218"
+  },
+  {
+    "STATE": "Washington",
+    "Abbreviated state name": "WA",
+    "CAPITAL": "Olympia",
+    "POSTALCODE": "98501"
+  },
+  {
+    "STATE": "West Virginia",
+    "Abbreviated state name": "WV",
+    "CAPITAL": "Charleston",
+    "POSTALCODE": "25301"
+  },
+  {
+    "STATE": "Wisconsin",
+    "Abbreviated state name": "WI",
+    "CAPITAL": "Madison",
+    "POSTALCODE": "53701"
+  },
+  {
+    "STATE": "Wyoming",
+    "Abbreviated state name": "WY",
+    "CAPITAL": "Cheyenne",
+    "POSTALCODE": "82001"
+  }
+]

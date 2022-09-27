@@ -1,0 +1,19 @@
+@import 'styles/_layout';
+
+.billing-address-form {
+	overflow-x: hidden;
+
+	&-row {
+		display: flex;
+		flex-wrap: wrap;
+		padding: $content-padding;
+		margin: 0 #{-($content-padding * 2)};
+		margin-top: -($content-padding * 2);
+		
+		> * {
+			flex-grow: 1;
+			
+			margin: $content-padding;
+		}
+	}
+}

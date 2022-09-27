@@ -1,0 +1,8 @@
+@import 'styles/_typography';
+
+.dealer-option {
+	&.dealer-group {
+		font-style: italic;
+		font-weight: $font-weight-bold;
+	}
+}

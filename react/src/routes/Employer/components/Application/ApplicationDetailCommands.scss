@@ -1,0 +1,13 @@
+@import 'styles/_colors';
+
+.application-detail-commands {
+	&.mobile {
+		flex-shrink: 0;
+	}
+
+	&-no-video  {
+		font-style: italic;
+		text-align: center;
+		color: $brand-darkgrey;
+	}
+}

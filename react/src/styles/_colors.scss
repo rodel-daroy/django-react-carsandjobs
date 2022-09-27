@@ -1,0 +1,21 @@
+// primary colors
+
+$brand-red: #da2631;
+$brand-darkblue: #164365;
+$brand-white: white;
+$brand-darkgrey: #414142;
+$brand-lightgrey: #e2e0e0;
+$brand-black: #262626;
+
+// secondary colors
+
+$brand-orange: #f8961d;
+$brand-yellow: #ffd835;
+$brand-green: #63c29c;
+$brand-blue: #3584b2;
+
+// derived colors
+
+$tint-color: rgba($brand-lightgrey, .15);
+$tint-green: rgba($brand-green, .25);
+$tint-red: rgba($brand-red, .25);

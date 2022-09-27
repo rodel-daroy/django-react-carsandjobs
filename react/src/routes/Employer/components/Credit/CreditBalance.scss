@@ -1,0 +1,60 @@
+@import 'styles/_layout';
+@import 'styles/_colors';
+@import 'styles/_typography';
+
+.credit-balance {
+	@include border-shape;
+	
+	display: inline-block;
+	padding: ($content-padding / 2) $content-padding;
+	background-color: lighten($brand-orange, 15%);
+	text-align: left;
+	text-decoration: none !important;
+	color: $brand-darkgrey !important;
+
+	//min-width: 135px;
+	height: 49px;
+	line-height: normal;
+
+	&.loading {
+		visibility: hidden;
+	}
+
+	li {
+		margin-bottom: 0;
+	}
+
+	&.positive {
+		background-color: lighten($brand-green, 15%);
+	}
+
+	&.clickable {
+		cursor: pointer;
+
+		&:hover, &:active {
+			text-decoration: none !important;
+		}
+	}
+
+	&-value {
+		display: inline-flex;
+		align-items: baseline;
+		color: $brand-black;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	&-arrow {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	&-vitals {
+		.vitals-group-caption {
+			font-size: 1.2rem;
+			font-weight: $font-weight-bold;
+			text-transform: uppercase;
+			line-height: 1.4em;
+		}
+	}
+}
